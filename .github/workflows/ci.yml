@@ -64,7 +64,7 @@ jobs:
           npm audit --omit=dev --audit-level=high
       - name: Licence report (fails on GPL/AGPL runtime dependencies)
         run: python scripts/license_report.py --output THIRD_PARTY_LICENSES.md
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         with:
           name: third-party-licenses
           path: THIRD_PARTY_LICENSES.md
@@ -85,7 +85,7 @@ jobs:
       - run: npm ci
       - run: npm test
       - run: npm run build
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         with:
           name: frontend-dist
           path: frontend/dist
@@ -126,7 +126,7 @@ jobs:
           npm ci
           npx playwright install --with-deps chromium
           npx playwright test
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         if: failure()
         with:
           name: playwright-report
