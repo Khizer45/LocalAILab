@@ -1,0 +1,50 @@
+{"id": "cal-001", "suite": "core", "case_id": "core-qa-01", "response": "Mars", "human_pass": true, "note": null, "adjudicated_by": "draft"}
+{"id": "cal-002", "suite": "core", "case_id": "core-qa-01", "response": "Mars.", "human_pass": true, "note": null, "adjudicated_by": "draft"}
+{"id": "cal-003", "suite": "core", "case_id": "core-qa-01", "response": "The Red Planet is Mars.", "human_pass": true, "note": "right answer in a sentence; exact_match is strict about wording", "adjudicated_by": "draft"}
+{"id": "cal-004", "suite": "core", "case_id": "core-qa-01", "response": "Jupiter", "human_pass": false, "note": null, "adjudicated_by": "draft"}
+{"id": "cal-005", "suite": "core", "case_id": "core-qa-03", "response": "7", "human_pass": true, "note": null, "adjudicated_by": "draft"}
+{"id": "cal-006", "suite": "core", "case_id": "core-qa-03", "response": "There are seven continents.", "human_pass": true, "note": null, "adjudicated_by": "draft"}
+{"id": "cal-007", "suite": "core", "case_id": "core-qa-03", "response": "Some count 6, but the usual answer is 7.", "human_pass": true, "note": null, "adjudicated_by": "draft"}
+{"id": "cal-008", "suite": "core", "case_id": "core-qa-03", "response": "7 or 8 depending on convention", "human_pass": false, "note": "hedged between two numbers", "adjudicated_by": "draft"}
+{"id": "cal-009", "suite": "core", "case_id": "core-qa-03", "response": "The answer is 7, although some models use 6.", "human_pass": true, "note": null, "adjudicated_by": "draft"}
+{"id": "cal-010", "suite": "core", "case_id": "core-qa-04", "response": "William Shakespeare", "human_pass": true, "note": null, "adjudicated_by": "draft"}
+{"id": "cal-011", "suite": "core", "case_id": "core-qa-04", "response": "Christopher Marlowe, not Shakespeare.", "human_pass": false, "note": null, "adjudicated_by": "draft"}
+{"id": "cal-012", "suite": "core", "case_id": "core-qa-04", "response": "Shakespear", "human_pass": true, "note": "minor misspelling a person would accept; keyword match misses it", "adjudicated_by": "draft"}
+{"id": "cal-013", "suite": "core", "case_id": "core-qa-06", "response": "Central Processing Unit", "human_pass": true, "note": null, "adjudicated_by": "draft"}
+{"id": "cal-014", "suite": "core", "case_id": "core-qa-06", "response": "Central Processor Unit", "human_pass": false, "note": "wrong expansion", "adjudicated_by": "draft"}
+{"id": "cal-015", "suite": "core", "case_id": "core-qa-06", "response": "It stands for Central Processing Unit, not Control Processing Unit.", "human_pass": true, "note": null, "adjudicated_by": "draft"}
+{"id": "cal-016", "suite": "core", "case_id": "core-rs-01", "response": "120", "human_pass": true, "note": null, "adjudicated_by": "draft"}
+{"id": "cal-017", "suite": "core", "case_id": "core-rs-01", "response": "8 x 15 = 120", "human_pass": true, "note": null, "adjudicated_by": "draft"}
+{"id": "cal-018", "suite": "core", "case_id": "core-rs-01", "response": "15 x 8 = 120 rupees, plus 10% tax makes 132.", "human_pass": false, "note": "adds an unrequested step and ends on a wrong total", "adjudicated_by": "draft"}
+{"id": "cal-019", "suite": "core", "case_id": "core-rs-01", "response": "120 rupees for 8 pens, i.e. 15 each.", "human_pass": true, "note": "correct total stated first; 'last number' rule picks 15", "adjudicated_by": "draft"}
+{"id": "cal-020", "suite": "core", "case_id": "core-rs-02", "response": "18", "human_pass": true, "note": null, "adjudicated_by": "draft"}
+{"id": "cal-021", "suite": "core", "case_id": "core-rs-02", "response": "Ali is 15 now, so in 3 years he will be 18.", "human_pass": true, "note": null, "adjudicated_by": "draft"}
+{"id": "cal-022", "suite": "core", "case_id": "core-rs-02", "response": "Sara 11 + 4 = 15, in 3 years: 18. Final answer: 18", "human_pass": true, "note": null, "adjudicated_by": "draft"}
+{"id": "cal-023", "suite": "core", "case_id": "core-rs-02", "response": "15", "human_pass": false, "note": null, "adjudicated_by": "draft"}
+{"id": "cal-024", "suite": "core", "case_id": "core-rs-04", "response": "36", "human_pass": true, "note": null, "adjudicated_by": "draft"}
+{"id": "cal-025", "suite": "core", "case_id": "core-rs-04", "response": "0.15 x 240 = 36.0", "human_pass": true, "note": null, "adjudicated_by": "draft"}
+{"id": "cal-026", "suite": "core", "case_id": "core-rs-04", "response": "36%", "human_pass": false, "note": "wrong unit: 15% of 240 is 36, not 36 percent", "adjudicated_by": "draft"}
+{"id": "cal-027", "suite": "core", "case_id": "core-rs-05", "response": "Thursday", "human_pass": true, "note": null, "adjudicated_by": "draft"}
+{"id": "cal-028", "suite": "core", "case_id": "core-rs-05", "response": "It will be Thursday.", "human_pass": true, "note": null, "adjudicated_by": "draft"}
+{"id": "cal-029", "suite": "core", "case_id": "core-rs-05", "response": "Not Thursday; it is Wednesday.", "human_pass": false, "note": null, "adjudicated_by": "draft"}
+{"id": "cal-030", "suite": "core", "case_id": "core-rs-06", "response": "13", "human_pass": true, "note": null, "adjudicated_by": "draft"}
+{"id": "cal-031", "suite": "core", "case_id": "core-rs-06", "response": "sqrt(144 + 25) = sqrt(169) = 13 cm", "human_pass": true, "note": null, "adjudicated_by": "draft"}
+{"id": "cal-032", "suite": "core", "case_id": "core-rs-06", "response": "about 13.0", "human_pass": true, "note": null, "adjudicated_by": "draft"}
+{"id": "cal-033", "suite": "core", "case_id": "core-if-01", "response": "- Better heart health\n- More energy\n- Improved mood", "human_pass": true, "note": null, "adjudicated_by": "draft"}
+{"id": "cal-034", "suite": "core", "case_id": "core-if-01", "response": "Here are three:\n- Better heart health\n- More energy\n- Improved mood", "human_pass": false, "note": "'Output nothing else' was violated", "adjudicated_by": "draft"}
+{"id": "cal-035", "suite": "core", "case_id": "core-if-02", "response": "{\"city\": \"Lahore\", \"country\": \"Pakistan\"}", "human_pass": true, "note": null, "adjudicated_by": "draft"}
+{"id": "cal-036", "suite": "core", "case_id": "core-if-02", "response": "{\"city\": \"Lahore\", \"country\": \"Pakistan\", \"population\": 13000000}", "human_pass": false, "note": "exactly two keys were required", "adjudicated_by": "draft"}
+{"id": "cal-037", "suite": "core", "case_id": "core-if-05", "response": "Yes", "human_pass": true, "note": null, "adjudicated_by": "draft"}
+{"id": "cal-038", "suite": "core", "case_id": "core-if-05", "response": "Yes, 17 is prime.", "human_pass": false, "note": "'yes or no only' was violated", "adjudicated_by": "draft"}
+{"id": "cal-039", "suite": "core", "case_id": "core-ex-02", "response": "{\"name\": \"Hamza\", \"city\": \"Islamabad\", \"age\": 34}", "human_pass": true, "note": null, "adjudicated_by": "draft"}
+{"id": "cal-040", "suite": "core", "case_id": "core-ex-02", "response": "{\"name\": \"Hamza\", \"city\": \"Karachi\", \"age\": 34}", "human_pass": false, "note": "previous city, not the current one", "adjudicated_by": "draft"}
+{"id": "cal-041", "suite": "core", "case_id": "core-cls-02", "response": "billing", "human_pass": true, "note": null, "adjudicated_by": "draft"}
+{"id": "cal-042", "suite": "core", "case_id": "core-cls-02", "response": "This is a billing issue, not technical_support.", "human_pass": true, "note": "classification is graded on content", "adjudicated_by": "draft"}
+{"id": "cal-043", "suite": "core", "case_id": "core-cls-02", "response": "technical_support or billing", "human_pass": false, "note": "two labels", "adjudicated_by": "draft"}
+{"id": "cal-044", "suite": "core", "case_id": "core-cls-02", "response": "Billing. (Could also be account_access if the card was blocked.)", "human_pass": false, "note": "hedged between labels", "adjudicated_by": "draft"}
+{"id": "cal-045", "suite": "quick", "case_id": "quick-sum-01", "response": "Local models keep confidential data on the computer, which suits hospitals and banks, but they are usually slower and less capable than cloud models.", "human_pass": true, "note": null, "adjudicated_by": "draft"}
+{"id": "cal-046", "suite": "quick", "case_id": "quick-sum-01", "response": "Local models keep data private and are never slower than cloud models.", "human_pass": false, "note": "contradicts the text; two of three keywords are enough for the rule", "adjudicated_by": "draft"}
+{"id": "cal-047", "suite": "rag-grounding", "case_id": "rag-05", "response": "NOT IN CONTEXT", "human_pass": true, "note": null, "adjudicated_by": "draft"}
+{"id": "cal-048", "suite": "rag-grounding", "case_id": "rag-05", "response": "The context doesn't mention the ticket price.", "human_pass": true, "note": null, "adjudicated_by": "draft"}
+{"id": "cal-049", "suite": "rag-grounding", "case_id": "rag-05", "response": "Tickets cost 2,000 rupees.", "human_pass": false, "note": "invented price", "adjudicated_by": "draft"}
+{"id": "cal-050", "suite": "rag-grounding", "case_id": "rag-05", "response": "I could not find the price in the context; it might be free.", "human_pass": false, "note": "abstains, then speculates", "adjudicated_by": "draft"}

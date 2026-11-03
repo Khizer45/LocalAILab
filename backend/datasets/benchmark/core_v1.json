@@ -1,0 +1,70 @@
+{
+  "id": "core",
+  "name": "Core Capability Suite",
+  "version": "1.0.0",
+  "description": "32 tasks across question answering, reasoning, summarization, instruction following, extraction and classification. Every task has a deterministic, reference-based check.",
+  "default_max_tokens": 200,
+  "cases": [
+    {"id": "core-qa-01", "category": "question_answering", "prompt": "Which planet is known as the Red Planet? Answer with one word.", "reference": "Mars", "evaluator": {"type": "exact_match", "answers": ["Mars"]}},
+    {"id": "core-qa-02", "category": "question_answering", "prompt": "What is the chemical symbol for gold? Answer with the symbol only.", "reference": "Au", "evaluator": {"type": "exact_match", "answers": ["Au"]}},
+    {"id": "core-qa-03", "category": "question_answering", "prompt": "How many continents are there on Earth according to the most common convention? Reply with a number.", "reference": "7", "evaluator": {"type": "numeric", "value": 7}},
+    {"id": "core-qa-04", "category": "question_answering", "prompt": "Who wrote the play 'Romeo and Juliet'? Answer with the author's name only.", "reference": "William Shakespeare", "evaluator": {"type": "contains_any", "keywords": ["Shakespeare"]}},
+    {"id": "core-qa-05", "category": "question_answering", "prompt": "What is the boiling point of water at sea level in degrees Celsius? Reply with a number only.", "reference": "100", "evaluator": {"type": "numeric", "value": 100}},
+    {"id": "core-qa-06", "category": "question_answering", "prompt": "In computer science, what does the acronym CPU stand for?", "reference": "Central Processing Unit", "evaluator": {"type": "contains_all", "keywords": ["central", "processing", "unit"]}},
+    {"id": "core-qa-07", "category": "question_answering", "prompt": "What is the largest ocean on Earth? Answer with its name only.", "reference": "Pacific Ocean", "evaluator": {"type": "contains_any", "keywords": ["Pacific"]}},
+    {"id": "core-qa-08", "category": "question_answering", "prompt": "Which programming language is the Django web framework written in? Answer with the language name only.", "reference": "Python", "evaluator": {"type": "contains_any", "keywords": ["Python"]}},
+
+    {"id": "core-rs-01", "category": "reasoning", "prompt": "A shop sells pens at 15 rupees each. How many rupees do 8 pens cost? Give only the final number.", "reference": "120", "evaluator": {"type": "numeric", "value": 120}},
+    {"id": "core-rs-02", "category": "reasoning", "prompt": "Ali is 4 years older than Sara. Sara is 11 years old. How old will Ali be in 3 years? Give only the final number.", "reference": "18", "evaluator": {"type": "numeric", "value": 18}},
+    {"id": "core-rs-03", "category": "reasoning", "prompt": "A train travels 180 km in 3 hours at a constant speed. What is its speed in km per hour? Give only the final number.", "reference": "60", "evaluator": {"type": "numeric", "value": 60}},
+    {"id": "core-rs-04", "category": "reasoning", "prompt": "What is 15% of 240? Give only the final number.", "reference": "36", "evaluator": {"type": "numeric", "value": 36}},
+    {"id": "core-rs-05", "category": "reasoning", "prompt": "If today is Monday, what day of the week will it be 10 days from today? Answer with the day name only.", "reference": "Thursday", "evaluator": {"type": "all_of", "checks": [{"type": "contains_any", "keywords": ["Thursday"]}, {"type": "word_limit", "max_words": 5}]}},
+    {"id": "core-rs-06", "category": "reasoning", "prompt": "A rectangle is 12 cm long and 5 cm wide. What is the length of its diagonal in cm? Give only the final number.", "reference": "13", "evaluator": {"type": "numeric", "value": 13, "tolerance": 0.01}},
+
+    {"id": "core-sum-01", "category": "summarization", "max_tokens": 120,
+     "prompt": "Summarize the following text in one sentence of at most 35 words.\n\nText: Pakistan receives strong sunlight for most of the year. Over the last few years, many households and small businesses have installed rooftop solar panels to reduce electricity bills and cope with power outages. Net metering allows them to sell surplus electricity back to the grid, although recent policy discussions have raised questions about future rates.",
+     "reference": "Many Pakistani homes and businesses use rooftop solar to cut electricity bills and outages, selling surplus power to the grid through net metering, though future rates are uncertain.",
+     "evaluator": {"type": "all_of", "weights": [2, 1, 1], "checks": [
+       {"type": "contains_all", "keywords": ["solar", "electricity", "grid"], "threshold": 0.66},
+       {"type": "word_limit", "min_words": 8, "max_words": 35},
+       {"type": "rouge_l", "reference": "Many Pakistani homes and businesses use rooftop solar to cut electricity bills and outages, selling surplus power to the grid through net metering, though future rates are uncertain.", "threshold": 0.15}]}},
+    {"id": "core-sum-02", "category": "summarization", "max_tokens": 120,
+     "prompt": "Summarize the following text in one sentence of at most 35 words.\n\nText: Antibiotic resistance happens when bacteria change so that medicines no longer kill them. Overusing antibiotics, for example for viral infections like the common cold, speeds up this process. Doctors recommend taking antibiotics only when prescribed and completing the full course.",
+     "reference": "Overusing antibiotics, such as for colds, makes bacteria resistant, so they should only be taken when prescribed and for the full course.",
+     "evaluator": {"type": "all_of", "weights": [2, 1, 1], "checks": [
+       {"type": "contains_all", "keywords": ["antibiotic", "bacteria", "resist"], "threshold": 0.66},
+       {"type": "word_limit", "min_words": 8, "max_words": 35},
+       {"type": "rouge_l", "reference": "Overusing antibiotics, such as for colds, makes bacteria resistant, so they should only be taken when prescribed and for the full course.", "threshold": 0.15}]}},
+    {"id": "core-sum-03", "category": "summarization", "max_tokens": 120,
+     "prompt": "Summarize the following text in one sentence of at most 35 words.\n\nText: A survey of 500 software developers found that 62% prefer a hybrid schedule, combining two or three office days with remote work. Respondents said remote days help them focus, while office days make collaboration and mentoring easier. Only 9% wanted to return to the office full time.",
+     "reference": "Most surveyed developers (62%) prefer hybrid work because remote days aid focus and office days aid collaboration, while only 9% want to be in the office full time.",
+     "evaluator": {"type": "all_of", "weights": [2, 1, 1], "checks": [
+       {"type": "contains_all", "keywords": ["hybrid", "remote", "office"], "threshold": 0.66},
+       {"type": "word_limit", "min_words": 8, "max_words": 35},
+       {"type": "rouge_l", "reference": "Most surveyed developers (62%) prefer hybrid work because remote days aid focus and office days aid collaboration, while only 9% want to be in the office full time.", "threshold": 0.15}]}},
+    {"id": "core-sum-04", "category": "summarization", "max_tokens": 120,
+     "prompt": "Summarize the following text in one sentence of at most 35 words.\n\nText: Retrieval-Augmented Generation (RAG) combines a search step with a language model. When a user asks a question, the system first retrieves relevant passages from a document collection and then asks the model to answer using those passages. This reduces hallucinations and lets the model use information that was not in its training data.",
+     "reference": "RAG retrieves relevant document passages and has a language model answer from them, reducing hallucinations and adding knowledge beyond its training data.",
+     "evaluator": {"type": "all_of", "weights": [2, 1, 1], "checks": [
+       {"type": "contains_all", "keywords": ["retriev", "model", "hallucinat"], "threshold": 0.66},
+       {"type": "word_limit", "min_words": 8, "max_words": 35},
+       {"type": "rouge_l", "reference": "RAG retrieves relevant document passages and has a language model answer from them, reducing hallucinations and adding knowledge beyond its training data.", "threshold": 0.15}]}},
+
+    {"id": "core-if-01", "category": "instruction_following", "prompt": "List exactly three benefits of regular exercise as a bulleted list using '-' at the start of each line. Output nothing else.", "reference": "- Improves heart health\n- Reduces stress\n- Helps maintain a healthy weight", "evaluator": {"type": "bullet_count", "count": 3, "only_bullets": true}},
+    {"id": "core-if-02", "category": "instruction_following", "prompt": "Output a JSON object with exactly two keys, \"city\" and \"country\", describing the city of Lahore. Output only the JSON.", "reference": "{\"city\": \"Lahore\", \"country\": \"Pakistan\"}", "evaluator": {"type": "json_object", "required_keys": ["city", "country"], "expected": {"city": "Lahore", "country": "Pakistan"}, "exact_keys": true}},
+    {"id": "core-if-03", "category": "instruction_following", "prompt": "Write the word 'local' in all capital letters, and nothing else.", "reference": "LOCAL", "evaluator": {"type": "regex", "pattern": "^\\W*LOCAL\\W*$"}},
+    {"id": "core-if-04", "category": "instruction_following", "prompt": "Write exactly one sentence about privacy that starts with the word 'Privacy' and ends with an exclamation mark.", "reference": "Privacy is a right that everyone deserves!", "evaluator": {"type": "regex", "pattern": "^\\s*\\W*Privacy\\b[^\\n]*!\\W*$"}},
+    {"id": "core-if-05", "category": "instruction_following", "prompt": "Answer with 'yes' or 'no' only: is 17 a prime number?", "reference": "yes", "evaluator": {"type": "regex", "pattern": "^\\W*yes\\W*$", "flags": "i"}},
+    {"id": "core-if-06", "category": "instruction_following", "prompt": "Translate 'good morning' into Spanish. Reply with the translation only, in lowercase letters.", "reference": "buenos días", "evaluator": {"type": "regex", "pattern": "^\\W*buenos d[ií]as\\W*$"}},
+    {"id": "core-if-07", "category": "instruction_following", "prompt": "Suggest a title for an article about running AI models on your own computer. The title must be at most 8 words and must not contain the word 'cloud'.", "reference": "Running Powerful AI Models on Your Own Laptop", "evaluator": {"type": "all_of", "checks": [{"type": "word_limit", "min_words": 2, "max_words": 8}, {"type": "regex", "pattern": "\\bcloud\\b", "flags": "i", "negate": true}]}},
+    {"id": "core-if-08", "category": "instruction_following", "prompt": "Return the whole numbers from 1 to 5 as a JSON array. Output only the array.", "reference": "[1, 2, 3, 4, 5]", "evaluator": {"type": "json_equals", "value": [1, 2, 3, 4, 5]}},
+
+    {"id": "core-ex-01", "category": "extraction", "prompt": "Extract the date from this sentence and format it as YYYY-MM-DD: 'The meeting was moved to 14 March 2025.' Output only the date.", "reference": "2025-03-14", "evaluator": {"type": "regex", "pattern": "^\\W*2025-03-14\\W*$"}},
+    {"id": "core-ex-02", "category": "extraction", "prompt": "Extract the person's name, current city and age from the text below as a JSON object with the keys name, city and age. Output only the JSON.\n\nText: 'Hamza, 34, recently moved from Karachi to Islamabad for a new job.'", "reference": "{\"name\": \"Hamza\", \"city\": \"Islamabad\", \"age\": 34}", "evaluator": {"type": "json_object", "required_keys": ["name", "city", "age"], "expected": {"name": "Hamza", "city": "Islamabad", "age": 34}}},
+    {"id": "core-ex-03", "category": "extraction", "prompt": "Extract all hashtags from this post as a JSON array of strings. Output only the array.\n\nPost: 'Loving the #offline AI demo at #MUST today! #AI'", "reference": "[\"#offline\", \"#MUST\", \"#AI\"]", "evaluator": {"type": "json_equals", "value": ["offline", "must", "ai"], "ignore_case": true, "ignore_order": true, "strip_chars": "#"}},
+    {"id": "core-ex-04", "category": "extraction", "prompt": "Extract the phone number from this text: 'Call the clinic at 051-1234567 before Friday.' Output only the phone number.", "reference": "051-1234567", "evaluator": {"type": "regex", "pattern": "^\\W*051-?1234567\\W*$"}},
+
+    {"id": "core-cls-01", "category": "classification", "prompt": "Classify the sentiment of this review: 'Setup took two minutes and it has worked perfectly ever since.' Answer with one word: positive, negative or neutral.", "reference": "positive", "evaluator": {"type": "label", "labels": ["positive", "negative", "neutral"], "answer": "positive"}},
+    {"id": "core-cls-02", "category": "classification", "prompt": "Classify this support message into one of these labels: billing, technical_support, account_access.\nMessage: 'I was charged twice for my subscription this month.'\nAnswer with the label only.", "reference": "billing", "evaluator": {"type": "label", "labels": ["billing", "technical_support", "account_access"], "answer": "billing"}}
+  ]
+}

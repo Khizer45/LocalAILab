@@ -1,0 +1,20 @@
+{
+  "version": "2026-10-13",
+  "note": "Download sizes are approximate (default quantisation); Ollama shows the exact size before it downloads. Licences were checked on the model cards on 2026-10-13 – always read the model's own licence before commercial use or redistribution.",
+  "models": [
+    {"name": "qwen3:0.6b", "family": "Qwen3", "params_b": 0.6, "download_gb": 0.52, "use": ["chat", "tools"], "license": "Apache-2.0", "commercial": "yes", "license_url": "https://huggingface.co/Qwen/Qwen3-0.6B"},
+    {"name": "qwen3:1.7b", "family": "Qwen3", "params_b": 1.7, "download_gb": 1.4, "use": ["chat", "tools"], "license": "Apache-2.0", "commercial": "yes", "license_url": "https://huggingface.co/Qwen/Qwen3-1.7B"},
+    {"name": "qwen3:4b", "family": "Qwen3", "params_b": 4.0, "download_gb": 2.5, "use": ["chat", "tools"], "license": "Apache-2.0", "commercial": "yes", "license_url": "https://huggingface.co/Qwen/Qwen3-4B"},
+    {"name": "qwen3:8b", "family": "Qwen3", "params_b": 8.2, "download_gb": 5.2, "use": ["chat", "tools"], "license": "Apache-2.0", "commercial": "yes", "license_url": "https://huggingface.co/Qwen/Qwen3-8B"},
+    {"name": "qwen2.5:1.5b", "family": "Qwen2.5", "params_b": 1.5, "download_gb": 1.0, "use": ["chat", "tools"], "license": "Apache-2.0", "commercial": "yes", "license_url": "https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct"},
+    {"name": "qwen2.5:3b", "family": "Qwen2.5", "params_b": 3.1, "download_gb": 1.9, "use": ["chat", "tools"], "license": "Qwen Research License", "commercial": "no – research / non-commercial use only", "license_url": "https://ollama.com/library/qwen2.5:3b"},
+    {"name": "qwen2.5:7b", "family": "Qwen2.5", "params_b": 7.6, "download_gb": 4.7, "use": ["chat", "tools"], "license": "Apache-2.0", "commercial": "yes", "license_url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct"},
+    {"name": "llama3.2:1b", "family": "Llama 3.2", "params_b": 1.2, "download_gb": 1.3, "use": ["chat", "tools"], "license": "Llama 3.2 Community License", "commercial": "yes, with conditions (\"Built with Llama\" attribution, 700M MAU limit, acceptable-use policy)", "license_url": "https://huggingface.co/meta-llama/Llama-3.2-1B-Instruct"},
+    {"name": "llama3.2:3b", "family": "Llama 3.2", "params_b": 3.2, "download_gb": 2.0, "use": ["chat", "tools"], "license": "Llama 3.2 Community License", "commercial": "yes, with conditions (\"Built with Llama\" attribution, 700M MAU limit, acceptable-use policy)", "license_url": "https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct"},
+    {"name": "phi4-mini", "family": "Phi-4", "params_b": 3.8, "download_gb": 2.5, "use": ["chat", "tools"], "license": "MIT", "commercial": "yes", "license_url": "https://huggingface.co/microsoft/Phi-4-mini-instruct"},
+    {"name": "granite3.3:2b", "family": "Granite 3.3", "params_b": 2.5, "download_gb": 1.5, "use": ["chat", "tools"], "license": "Apache-2.0", "commercial": "yes", "license_url": "https://huggingface.co/ibm-granite/granite-3.3-2b-instruct"},
+    {"name": "gemma3:1b", "family": "Gemma 3", "params_b": 1.0, "download_gb": 0.8, "use": ["chat"], "license": "Gemma Terms of Use", "commercial": "yes, subject to the Gemma prohibited-use policy", "license_url": "https://ai.google.dev/gemma/terms"},
+    {"name": "gemma3:4b", "family": "Gemma 3", "params_b": 4.3, "download_gb": 3.3, "use": ["chat"], "license": "Gemma Terms of Use", "commercial": "yes, subject to the Gemma prohibited-use policy", "license_url": "https://ai.google.dev/gemma/terms"},
+    {"name": "nomic-embed-text", "family": "Nomic Embed", "params_b": 0.137, "download_gb": 0.27, "use": ["embedding"], "license": "Apache-2.0", "commercial": "yes", "license_url": "https://ollama.com/library/nomic-embed-text"}
+  ]
+}

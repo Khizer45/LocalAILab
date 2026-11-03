@@ -1,0 +1,24 @@
+[project]
+name = "local-ai-lab-backend"
+version = "1.2.0"
+description = "Local AI Lab – offline AI assistant, private document Q&A, model benchmarking and MLOps"
+requires-python = ">=3.11"
+
+[tool.ruff]
+line-length = 120
+target-version = "py311"
+extend-exclude = [".venv", "data"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP", "S", "BLE"]
+ignore = [
+  "S101",   # assert is fine in tests
+  "S105", "S106",  # test passwords
+  "B008",   # FastAPI Depends() in defaults is idiomatic
+  "E501",   # long lines in data/messages
+  "UP046", "UP047",
+]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/*" = ["S", "BLE", "B"]
+"devtools/*" = ["S"]

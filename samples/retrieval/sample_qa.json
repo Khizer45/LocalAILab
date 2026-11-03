@@ -1,0 +1,29 @@
+{
+  "name": "Sample documents – retrieval questions",
+  "version": "1.0.0",
+  "description": "Questions about the three fictional files in samples/documents. Upload them on the Documents page, then run Documents → Retrieval evaluation with this file. A retrieved chunk counts as relevant when it comes from the named file and contains the given text.",
+  "questions": [
+    {"id": "q01", "question": "How many days of paid annual leave do full-time employees get?",
+     "relevant": [{"filename": "northwind_clinic_leave_policy.txt", "contains": "24 days of paid annual leave"}]},
+    {"id": "q02", "question": "How far in advance must leave be requested?",
+     "relevant": [{"filename": "northwind_clinic_leave_policy.txt", "contains": "at least 14 days in advance"}]},
+    {"id": "q03", "question": "When is a medical certificate needed for sick leave?",
+     "relevant": [{"filename": "northwind_clinic_leave_policy.txt", "contains": "medical certificate"}]},
+    {"id": "q04", "question": "How long is paternity leave?",
+     "relevant": [{"filename": "northwind_clinic_leave_policy.txt", "contains": "10 working days of paid paternity leave"}]},
+    {"id": "q05", "question": "Why did the team choose SQLite instead of PostgreSQL?",
+     "relevant": [{"filename": "project_falcon_notes.md", "contains": "fewer than 20 concurrent users"}]},
+    {"id": "q06", "question": "When do backups run and where are they stored?",
+     "relevant": [{"filename": "project_falcon_notes.md", "contains": "Backups run nightly"}]},
+    {"id": "q07", "question": "What is the minimum password length?",
+     "relevant": [{"filename": "it_security_handbook.pdf", "contains": "at least 12 characters"}]},
+    {"id": "q08", "question": "Within what time must a phishing e-mail be reported?",
+     "relevant": [{"filename": "it_security_handbook.pdf", "contains": "within one hour"}]},
+    {"id": "q09", "question": "Can confidential documents be pasted into public cloud chatbots?",
+     "relevant": [{"filename": "it_security_handbook.pdf", "contains": "never with public cloud chatbots"}]},
+    {"id": "q10", "question": "Which embedding model does Project Falcon use?",
+     "relevant": [{"filename": "project_falcon_notes.md", "contains": "nomic-embed-text"}]},
+    {"id": "u01", "question": "What is the clinic's parking fee for visitors?", "relevant": []},
+    {"id": "u02", "question": "Who is the CEO of the company that wrote the IT handbook?", "relevant": []}
+  ]
+}

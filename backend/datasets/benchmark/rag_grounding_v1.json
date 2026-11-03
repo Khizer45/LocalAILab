@@ -1,0 +1,28 @@
+{
+  "id": "rag-grounding",
+  "name": "Context Grounding & Abstention (no retrieval)",
+  "version": "1.1.0",
+  "description": "6 questions with the context already supplied in the prompt. 4 can be answered from it; 2 cannot, and the model must say so (briefly) instead of inventing an answer. This tests answer grounding and abstention only – it does not test retrieval. Use Documents → Retrieval evaluation for Recall@k / MRR / nDCG of the real search.",
+  "default_max_tokens": 120,
+  "system": "Answer using only the context provided by the user. If the answer is not in the context, reply exactly: NOT IN CONTEXT",
+  "cases": [
+    {"id": "rag-01", "category": "grounded_qa",
+     "prompt": "Context:\nThe Mirpur campus library is open from 8:00 to 20:00 on weekdays and from 10:00 to 16:00 on Saturdays. It is closed on Sundays.\n\nQuestion: At what time does the library close on Saturdays?",
+     "reference": "16:00", "evaluator": {"type": "contains_any", "keywords": ["16:00", "4 pm", "4:00 pm", "4pm", "4 p.m."]}},
+    {"id": "rag-02", "category": "grounded_qa",
+     "prompt": "Context:\nProject Falcon uses a FastAPI backend, a React frontend and an SQLite database. Deployment is done with Docker Compose.\n\nQuestion: Which database does Project Falcon use?",
+     "reference": "SQLite", "evaluator": {"type": "contains_any", "keywords": ["SQLite"]}},
+    {"id": "rag-03", "category": "grounded_qa",
+     "prompt": "Context:\nThe clinic charges 1,500 rupees for a general consultation and 2,500 rupees for a specialist consultation. Follow-up visits within 7 days are free.\n\nQuestion: How much does a specialist consultation cost in rupees?",
+     "reference": "2,500", "evaluator": {"type": "numeric", "value": 2500}},
+    {"id": "rag-04", "category": "grounded_qa",
+     "prompt": "Context:\nTo reset a router, hold the reset button for 10 seconds until the power light blinks orange, then wait two minutes for it to restart.\n\nQuestion: How long should the reset button be held?",
+     "reference": "10 seconds", "evaluator": {"type": "contains_any", "keywords": ["10 seconds", "ten seconds", "10 sec"]}},
+    {"id": "rag-05", "category": "abstention",
+     "prompt": "Context:\nThe annual tech conference will take place in Islamabad and will focus on cybersecurity and cloud computing. Registration opens in January.\n\nQuestion: How much does a conference ticket cost?",
+     "reference": "NOT IN CONTEXT", "evaluator": {"type": "abstain", "max_words": 40, "forbidden": ["rupees", "pkr", "rs.", "$", "dollars"]}},
+    {"id": "rag-06", "category": "abstention",
+     "prompt": "Context:\nThe intern worked on network scanning and web security testing with Burp Suite during a 2.5-month internship.\n\nQuestion: What was the intern's monthly salary?",
+     "reference": "NOT IN CONTEXT", "evaluator": {"type": "abstain", "max_words": 40, "forbidden": ["rupees", "pkr", "rs.", "$", "dollars"]}}
+  ]
+}

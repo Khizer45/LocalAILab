@@ -1,0 +1,53 @@
+# Local AI Lab – full stack: Ollama + FastAPI backend + React/nginx frontend.
+#   docker compose up -d --build
+#   docker compose exec ollama ollama pull llama3.2:1b
+#   docker compose exec ollama ollama pull nomic-embed-text
+#   open http://127.0.0.1:8080
+# Ports are published on 127.0.0.1 only, so nothing is reachable from the network.
+services:
+  ollama:
+    image: ollama/ollama:latest
+    restart: unless-stopped
+    environment:
+      OLLAMA_NO_CLOUD: "1"        # disable Ollama's own cloud features
+      OLLAMA_KEEP_ALIVE: "10m"
+    volumes:
+      - ollama_data:/root/.ollama
+    ports:
+      - "127.0.0.1:11434:11434"
+    healthcheck:
+      test: ["CMD", "ollama", "list"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+
+  backend:
+    build: ./backend
+    restart: unless-stopped
+    environment:
+      OLLAMA_BASE_URL: http://ollama:11434
+      OFFLINE_ALLOWED_HOSTS: localhost,127.0.0.1,::1,ollama
+      CORS_ORIGINS: http://127.0.0.1:8080,http://localhost:8080
+      AUTH_ENABLED: ${AUTH_ENABLED:-false}
+      # the nginx container talks to the backend over the private compose network; ports are published on
+      # 127.0.0.1 only, so these networks cannot be reached from other computers
+      UNAUTHENTICATED_NETWORKS: 127.0.0.0/8,::1/128,172.16.0.0/12,192.168.0.0/16
+      EMBEDDING_MODEL: ${EMBEDDING_MODEL:-nomic-embed-text}
+      DEFAULT_MODEL: ${DEFAULT_MODEL:-}
+      LOG_LEVEL: ${LOG_LEVEL:-INFO}
+    volumes:
+      - lab_data:/app/data
+    depends_on:
+      - ollama
+
+  frontend:
+    build: ./frontend
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:8080:80"
+    depends_on:
+      - backend
+
+volumes:
+  ollama_data:
+  lab_data:

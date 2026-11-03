@@ -1,0 +1,22 @@
+# Exact versions verified by the automated test suite on 2026-10-13 (Python 3.13; Python 3.11 with numpy 2.4.x).
+alembic==1.20.0
+fastapi==0.143.0
+httpx==0.28.1
+joblib==1.6.0
+mlflow==3.17.0
+numpy==2.5.3
+onnx==1.23.2
+onnxruntime==1.31.0
+pandas==3.0.6
+pillow==12.3.0
+psutil==7.2.2
+pydantic-settings==2.15.0
+pydantic==2.14.0
+pypdf==6.20.1
+pytest==9.1.1
+python-multipart==0.0.32
+ruff==0.17.0
+scikit-learn==1.9.1
+scipy==1.18.1
+SQLAlchemy==2.1.4
+uvicorn==0.54.0

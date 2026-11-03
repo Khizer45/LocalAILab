@@ -1,0 +1,120 @@
+/* Fonts are bundled locally (no request to Google Fonts) – the app must work offline. */
+@import "@fontsource/ibm-plex-sans/400.css";
+@import "@fontsource/ibm-plex-sans/500.css";
+@import "@fontsource/ibm-plex-sans/600.css";
+@import "@fontsource/ibm-plex-sans-condensed/500.css";
+@import "@fontsource/ibm-plex-sans-condensed/600.css";
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "IBM Plex Sans", system-ui, sans-serif;
+  --font-cond: "IBM Plex Sans Condensed", "IBM Plex Sans", system-ui, sans-serif;
+
+  --color-bg: #121821;
+  --color-panel: #19212c;
+  --color-raised: #212b38;
+  --color-line: #2b3644;
+  --color-line-strong: #3a4757;
+  --color-ink: #e4e8ee;
+  --color-muted: #8c99aa;
+  --color-faint: #66738a;
+  --color-amber: #f2b84b;
+  --color-amber-ink: #1d1503;
+  --color-teal: #57c2b0;
+  --color-coral: #ee7468;
+  --color-violet: #a28beb;
+  --color-sky: #6fb2f2;
+}
+
+:root {
+  color-scheme: dark;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--color-bg);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  font-size: 14px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+.num {
+  font-variant-numeric: tabular-nums;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-amber);
+  outline-offset: 2px;
+}
+
+/* Thin scrollbars that match the panels */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-line-strong) transparent;
+}
+
+/* Markdown answers */
+.prose-chat p {
+  margin: 0 0 0.6em;
+}
+.prose-chat p:last-child {
+  margin-bottom: 0;
+}
+.prose-chat ul,
+.prose-chat ol {
+  margin: 0.3em 0 0.6em 1.3em;
+}
+.prose-chat ul {
+  list-style: disc;
+}
+.prose-chat ol {
+  list-style: decimal;
+}
+.prose-chat code {
+  background: var(--color-raised);
+  border: 1px solid var(--color-line);
+  border-radius: 4px;
+  padding: 0 4px;
+  font-size: 0.92em;
+}
+.prose-chat pre {
+  background: #0f141b;
+  border: 1px solid var(--color-line);
+  border-radius: 6px;
+  padding: 10px 12px;
+  overflow-x: auto;
+  margin: 0.4em 0 0.8em;
+}
+.prose-chat pre code {
+  background: none;
+  border: 0;
+  padding: 0;
+}
+.prose-chat table {
+  border-collapse: collapse;
+  margin: 0.4em 0;
+}
+.prose-chat th,
+.prose-chat td {
+  border: 1px solid var(--color-line);
+  padding: 3px 8px;
+}
+.prose-chat a {
+  color: var(--color-sky);
+  text-decoration: underline;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}

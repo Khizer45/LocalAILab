@@ -1,0 +1,151 @@
+text,label
+I was charged twice for my subscription this month.,billing
+Can you send me a copy of last month's invoice?,billing
+Why is my bill higher than usual?,billing
+I want a refund for the duplicate payment.,billing
+How do I update my credit card details?,billing
+My payment failed but the money was deducted from my account.,billing
+What payment methods do you accept?,billing
+Please cancel the automatic renewal before I get charged again.,billing
+The invoice shows a service I never ordered.,billing
+When will my refund be processed?,billing
+Is there a discount if I pay yearly instead of monthly?,billing
+I need a receipt for tax purposes.,billing
+You billed me after I cancelled my plan.,billing
+Can I pay my outstanding balance in installments?,billing
+Why was a late fee added to my statement?,billing
+How much does the premium plan cost per month?,billing
+My bank shows a pending charge from your company that I don't recognize.,billing
+Please change the billing address on my invoices.,billing
+I was promised a promotional price but was charged the full amount.,billing
+Do you charge extra for international transactions?,billing
+The amount on my invoice does not match the quote I received.,billing
+How can I download all my past invoices?,billing
+I'd like to switch from monthly to annual billing.,billing
+My coupon code was not applied at checkout.,billing
+Can you explain the tax on my bill?,billing
+The app crashes every time I open the settings page.,technical_support
+"I can't upload files larger than 10 MB, it just freezes.",technical_support
+The website shows a 500 error when I submit the form.,technical_support
+My device won't sync with the backup server anymore.,technical_support
+Notifications stopped working after the latest update.,technical_support
+The video keeps buffering even though my internet is fast.,technical_support
+How do I fix the 'connection timed out' error?,technical_support
+The export to PDF button does nothing.,technical_support
+The mobile app is very slow on my Android phone.,technical_support
+Search results are not loading on the dashboard.,technical_support
+I get a blank white screen after the app starts.,technical_support
+The printer integration stopped working yesterday.,technical_support
+Audio is not working during video calls.,technical_support
+The installer fails with an unknown error on Windows.,technical_support
+My data is not saving when I click the save button.,technical_support
+The API returns an invalid JSON response.,technical_support
+Images are not displaying in the gallery section.,technical_support
+The software freezes when I import a large spreadsheet.,technical_support
+Bluetooth pairing fails with my headphones.,technical_support
+The chart on the reports page shows wrong values after the update.,technical_support
+Dark mode makes some text unreadable.,technical_support
+The app uses 100% CPU and my laptop overheats.,technical_support
+The webcam is not detected by the application.,technical_support
+The sync stops halfway with error code 0x80070005.,technical_support
+The page layout breaks on my tablet screen.,technical_support
+I forgot my password and the reset link isn't arriving.,account_access
+My account has been locked after too many login attempts.,account_access
+How do I enable two-factor authentication?,account_access
+I can't log in with my Google account anymore.,account_access
+Someone else may have accessed my account.,account_access
+Please help me change the email address linked to my account.,account_access
+The verification code on my phone never arrives.,account_access
+How do I delete my account permanently?,account_access
+I lost my phone and can't get my 2FA codes.,account_access
+My username is not recognized on the login page.,account_access
+How can I change my password?,account_access
+I was logged out and now it says my account is suspended.,account_access
+Can I add another user to my account?,account_access
+The login page keeps saying invalid credentials even though they're correct.,account_access
+I need to recover an old account from 2019.,account_access
+How do I reset my security questions?,account_access
+My session expires every few minutes and I have to sign in again.,account_access
+I didn't receive the account activation email.,account_access
+How do I sign out from all devices?,account_access
+Can I change my username?,account_access
+My account shows the wrong name and I can't edit my profile.,account_access
+The password reset link says it has expired.,account_access
+How do I turn off two-step verification?,account_access
+"I think my account was hacked, the password was changed.",account_access
+I can't access the admin panel with my team account.,account_access
+I'd like to book an appointment for next Tuesday.,appointment
+Can I reschedule my meeting from Friday to Monday?,appointment
+Please cancel my appointment tomorrow at 3 pm.,appointment
+What times are available on Saturday morning?,appointment
+Is Dr. Ahmed available this week?,appointment
+I need to move my consultation to the afternoon.,appointment
+How far in advance do I need to book a session?,appointment
+Can I get a reminder before my appointment?,appointment
+"I missed my appointment, can I book a new one?",appointment
+Do you have any slots open after 5 pm?,appointment
+I want to schedule a follow-up visit in two weeks.,appointment
+Can my appointment be online instead of in person?,appointment
+Please confirm my booking for Thursday at 10.,appointment
+How long does a typical appointment last?,appointment
+I'll be 20 minutes late for my appointment today.,appointment
+Can I book appointments for two people at the same time?,appointment
+Is it possible to book a slot on a public holiday?,appointment
+I need the earliest available appointment please.,appointment
+Can I change the location of my appointment to the Islamabad branch?,appointment
+What is the cancellation policy for appointments?,appointment
+Please book a demo session with your sales team for next week.,appointment
+I'd like to set up a weekly recurring appointment.,appointment
+"My appointment confirmation shows the wrong date, please fix the booking.",appointment
+Can I join the waiting list for an earlier slot?,appointment
+Please schedule a call with a specialist on Wednesday.,appointment
+"Your support team was really helpful, thank you!",feedback
+"The new design looks great, well done.",feedback
+I'm unhappy with how long it took to get a response.,feedback
+It would be great if you added a dark mode option.,feedback
+The staff at the front desk were rude to me.,feedback
+I love how fast the new update is.,feedback
+Your checkout process is confusing and needs improvement.,feedback
+I want to file a complaint about the delivery delay.,feedback
+Thanks for resolving my issue so quickly.,feedback
+The tutorial videos were very easy to follow.,feedback
+Please consider adding support for the Urdu language.,feedback
+The quality of service has gone down recently.,feedback
+I'd rate my experience 9 out of 10.,feedback
+"The survey was too long, I gave up halfway.",feedback
+Great job on the new mobile app!,feedback
+Your prices are fair and the product is excellent.,feedback
+The waiting room was clean and comfortable.,feedback
+I'm disappointed that my suggestion was ignored.,feedback
+"Some feedback about your onboarding emails: they are too frequent.",feedback
+The new search feature is a big improvement.,feedback
+Your agent Bilal went above and beyond today.,feedback
+I think the font on the website is too small to read.,feedback
+Overall I'm satisfied but the app could be faster.,feedback
+This is the best customer service I have experienced.,feedback
+The instructions in the manual were unclear and confusing.,feedback
+What are your opening hours on weekends?,general_info
+Where is your nearest branch located?,general_info
+Do you offer services in Mirpur?,general_info
+What is your phone number for general enquiries?,general_info
+Are you open on Eid holidays?,general_info
+Do you have parking available at the office?,general_info
+What languages does your support team speak?,general_info
+Is your office wheelchair accessible?,general_info
+How long has your company been in business?,general_info
+Do you have a privacy policy I can read?,general_info
+What services do you provide?,general_info
+Do you have a newsletter I can subscribe to?,general_info
+Where can I find your terms and conditions?,general_info
+Do you have a mobile app for iPhone?,general_info
+Which cities do you operate in?,general_info
+What is the email address of your head office?,general_info
+Are you hiring at the moment?,general_info
+Do you ship to other countries?,general_info
+How can I contact your media team?,general_info
+What is the address of your Lahore office?,general_info
+Is your service available 24 hours a day?,general_info
+Do you have a FAQ page?,general_info
+Who is the CEO of your company?,general_info
+Do you support businesses or only individuals?,general_info
+Is your software available in other languages?,general_info

@@ -1,0 +1,5 @@
+# OPTIONAL: Hugging Face Transformers embedder (app.services.embeddings.HFEmbedder).
+# Large download (PyTorch). Only needed if you want HF encoders instead of Ollama embeddings.
+-r requirements.txt
+torch>=2.2
+transformers>=4.40

@@ -1,0 +1,16 @@
+# Demo / CI without real models: replaces Ollama with the built-in simulator.
+# Numbers shown in this mode are NOT real model measurements.
+#   docker compose -f docker-compose.yml -f docker-compose.demo.yml up -d --build
+services:
+  ollama:
+    profiles: ["disabled"]
+  ollama-sim:
+    build: ./backend
+    command: ["python", "-m", "devtools.fake_ollama", "--host", "0.0.0.0", "--port", "11434", "--speed", "0.5"]
+  backend:
+    environment:
+      OLLAMA_BASE_URL: http://ollama-sim:11434
+      OFFLINE_ALLOWED_HOSTS: localhost,127.0.0.1,::1,ollama-sim
+      EMBEDDING_MODEL: sim-embed
+      DEFAULT_MODEL: sim-small:1b
+    depends_on: !reset [ollama-sim]

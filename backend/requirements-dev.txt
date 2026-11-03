@@ -1,0 +1,7 @@
+-r requirements.txt
+pytest>=8.0
+ruff>=0.5
+hypothesis>=6.100        # property-based evaluator tests
+openai>=1.40             # verifies the OpenAI-compatible /v1 API with the official client (tests only)
+skl2onnx>=1.17           # builds ONNX test models / checks the Colab export path (tests only)
+pip-audit>=2.7           # dependency vulnerability scan (CI)

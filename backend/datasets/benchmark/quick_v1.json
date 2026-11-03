@@ -1,0 +1,68 @@
+{
+  "id": "quick",
+  "name": "Quick Smoke Suite",
+  "version": "1.0.0",
+  "description": "8 short tasks (one per category) for a fast sanity check of a model. Runs in about a minute on CPU with a 1B model.",
+  "default_max_tokens": 128,
+  "cases": [
+    {
+      "id": "quick-qa-01",
+      "category": "question_answering",
+      "prompt": "What is the capital of Japan? Answer with the city name only.",
+      "reference": "Tokyo",
+      "evaluator": {"type": "exact_match", "answers": ["Tokyo"]}
+    },
+    {
+      "id": "quick-rs-01",
+      "category": "reasoning",
+      "prompt": "What is 17 multiplied by 6? Reply with just the number.",
+      "reference": "102",
+      "evaluator": {"type": "numeric", "value": 102}
+    },
+    {
+      "id": "quick-rs-02",
+      "category": "reasoning",
+      "prompt": "If all bloops are razzies and all razzies are lazzies, are all bloops lazzies? Answer yes or no.",
+      "reference": "Yes",
+      "evaluator": {"type": "regex", "pattern": "^\\W*yes\\b", "flags": "i"}
+    },
+    {
+      "id": "quick-if-01",
+      "category": "instruction_following",
+      "prompt": "Return a JSON object with the keys \"name\" and \"age\" for a person named Sara who is 29 years old. Output only the JSON.",
+      "reference": "{\"name\": \"Sara\", \"age\": 29}",
+      "evaluator": {"type": "json_object", "required_keys": ["name", "age"], "expected": {"name": "Sara", "age": 29}}
+    },
+    {
+      "id": "quick-if-02",
+      "category": "instruction_following",
+      "prompt": "Describe the sun in at most 15 words.",
+      "reference": "The sun is a hot, glowing star at the centre of our solar system.",
+      "evaluator": {"type": "word_limit", "min_words": 3, "max_words": 15}
+    },
+    {
+      "id": "quick-sum-01",
+      "category": "summarization",
+      "prompt": "Summarize the following text in one sentence of at most 30 words.\n\nText: Local language models run directly on a personal computer instead of a remote server. Because prompts and documents never leave the machine, they are attractive for hospitals and banks that handle confidential data. The trade-off is that small local models are usually slower and less capable than large cloud models.",
+      "reference": "Local language models keep confidential data on the computer, which suits hospitals and banks, but they are slower and less capable than large cloud models.",
+      "evaluator": {"type": "all_of", "checks": [
+        {"type": "contains_all", "keywords": ["local", "data", "slow"], "threshold": 0.66},
+        {"type": "word_limit", "min_words": 8, "max_words": 30}
+      ]}
+    },
+    {
+      "id": "quick-ex-01",
+      "category": "extraction",
+      "prompt": "Extract the email address from this text: 'Contact Ali at ali.khan@example.org for details.' Reply with the email address only.",
+      "reference": "ali.khan@example.org",
+      "evaluator": {"type": "regex", "pattern": "^\\W*ali\\.khan@example\\.org\\W*$", "flags": "i"}
+    },
+    {
+      "id": "quick-cls-01",
+      "category": "classification",
+      "prompt": "Classify the sentiment of this review: 'The battery died after one day, very disappointed.' Answer with one word: positive, negative or neutral.",
+      "reference": "negative",
+      "evaluator": {"type": "label", "labels": ["positive", "negative", "neutral"], "answer": "negative"}
+    }
+  ]
+}

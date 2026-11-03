@@ -1,0 +1,13 @@
+# Use Ollama installed natively on the host (recommended on Windows/macOS,
+# where native Ollama is faster than the CPU-only container):
+#   docker compose -f docker-compose.yml -f docker-compose.host-ollama.yml up -d --build
+services:
+  ollama:
+    profiles: ["disabled"]
+  backend:
+    environment:
+      OLLAMA_BASE_URL: http://host.docker.internal:11434
+      OFFLINE_ALLOWED_HOSTS: localhost,127.0.0.1,::1,host.docker.internal
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    depends_on: !reset []

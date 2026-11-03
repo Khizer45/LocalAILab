@@ -1,0 +1,701 @@
+customer_id,tenure_months,contract,internet_service,monthly_charges,support_calls,payment_method,paperless_billing,churn
+C10000,68,month-to-month,dsl,56.74,2,easypaisa,no,no
+C10001,45,month-to-month,fiber,61.57,0,easypaisa,no,no
+C10002,49,month-to-month,fiber,74.22,2,bank transfer,yes,no
+C10003,64,month-to-month,fiber,95.55,0,card,yes,yes
+C10004,42,month-to-month,none,28.75,2,bank transfer,yes,no
+C10005,56,month-to-month,dsl,67.99,2,easypaisa,no,no
+C10006,60,two-year,fiber,86.97,0,card,yes,no
+C10007,16,month-to-month,dsl,60.55,5,card,no,yes
+C10008,4,month-to-month,fiber,40.0,1,card,no,yes
+C10009,22,one-year,fiber,77.94,1,bank transfer,yes,no
+C10010,21,month-to-month,fiber,92.97,1,cash,no,yes
+C10011,63,month-to-month,dsl,39.74,0,cash,yes,no
+C10012,65,month-to-month,none,56.81,1,easypaisa,yes,no
+C10013,1,month-to-month,fiber,40.0,3,bank transfer,yes,yes
+C10014,36,one-year,fiber,93.43,1,card,no,yes
+C10015,59,month-to-month,fiber,66.75,3,easypaisa,yes,no
+C10016,10,month-to-month,fiber,97.43,0,card,no,yes
+C10017,57,one-year,dsl,18.14,5,bank transfer,yes,no
+C10018,9,two-year,fiber,93.85,1,easypaisa,no,yes
+C10019,34,month-to-month,fiber,75.26,1,card,yes,yes
+C10020,58,month-to-month,fiber,96.15,1,card,yes,no
+C10021,22,month-to-month,none,36.49,4,card,no,yes
+C10022,25,two-year,fiber,67.63,1,cash,yes,no
+C10023,20,two-year,fiber,124.85,0,cash,yes,no
+C10024,52,month-to-month,dsl,38.4,4,card,no,no
+C10025,19,two-year,none,40.88,3,bank transfer,no,no
+C10026,71,month-to-month,dsl,49.47,1,easypaisa,yes,no
+C10027,32,month-to-month,fiber,59.55,3,easypaisa,yes,yes
+C10028,34,month-to-month,fiber,103.81,0,bank transfer,no,yes
+C10029,36,two-year,none,89.5,0,bank transfer,yes,no
+C10030,42,month-to-month,none,40.92,1,easypaisa,no,no
+C10031,40,month-to-month,dsl,20.48,0,cash,no,no
+C10032,37,one-year,none,78.44,1,card,yes,no
+C10033,71,month-to-month,fiber,102.17,5,card,no,yes
+C10034,58,month-to-month,dsl,71.43,0,easypaisa,yes,no
+C10035,57,month-to-month,fiber,103.13,1,bank transfer,no,yes
+C10036,50,two-year,dsl,37.65,1,card,no,no
+C10037,45,one-year,fiber,76.63,1,easypaisa,yes,no
+C10038,25,two-year,dsl,27.32,1,card,no,no
+C10039,71,one-year,dsl,26.64,3,cash,yes,no
+C10040,34,one-year,dsl,74.62,0,bank transfer,yes,no
+C10041,16,two-year,fiber,66.56,5,card,no,yes
+C10042,61,one-year,fiber,125.59,1,cash,yes,no
+C10043,12,one-year,none,56.48,2,bank transfer,no,no
+C10044,61,month-to-month,dsl,42.19,4,cash,yes,no
+C10045,44,month-to-month,fiber,95.96,3,bank transfer,no,yes
+C10046,9,one-year,dsl,91.03,0,card,no,no
+C10047,4,month-to-month,dsl,64.72,1,easypaisa,yes,yes
+C10048,32,two-year,none,30.66,1,card,no,no
+C10049,3,one-year,dsl,62.42,1,card,no,no
+C10050,11,month-to-month,none,82.51,0,cash,no,no
+C10051,37,two-year,fiber,70.14,0,easypaisa,yes,no
+C10052,69,month-to-month,dsl,39.53,1,bank transfer,yes,no
+C10053,34,month-to-month,fiber,100.33,3,easypaisa,no,yes
+C10054,58,month-to-month,dsl,57.8,2,easypaisa,yes,no
+C10055,66,two-year,none,32.95,2,easypaisa,no,no
+C10056,59,one-year,dsl,47.41,1,easypaisa,yes,no
+C10057,45,two-year,dsl,39.89,0,card,no,no
+C10058,32,month-to-month,fiber,85.93,2,bank transfer,yes,yes
+C10059,37,two-year,fiber,82.19,1,bank transfer,no,no
+C10060,19,one-year,dsl,78.01,2,card,no,no
+C10061,36,one-year,fiber,94.19,1,bank transfer,no,no
+C10062,27,two-year,dsl,23.73,2,easypaisa,yes,no
+C10063,18,month-to-month,fiber,88.14,0,bank transfer,yes,yes
+C10064,71,month-to-month,fiber,97.94,0,bank transfer,yes,no
+C10065,1,one-year,none,64.12,3,bank transfer,yes,yes
+C10066,7,two-year,dsl,75.6,1,card,yes,no
+C10067,14,month-to-month,fiber,69.01,2,cash,no,yes
+C10068,69,one-year,none,35.98,2,easypaisa,no,no
+C10069,50,month-to-month,fiber,98.6,0,card,yes,no
+C10070,63,one-year,fiber,58.69,0,cash,no,no
+C10071,15,one-year,dsl,15.0,1,cash,no,no
+C10072,52,month-to-month,none,75.51,2,cash,yes,yes
+C10073,27,one-year,fiber,65.52,0,card,no,no
+C10074,35,month-to-month,none,48.88,2,card,no,no
+C10075,1,two-year,fiber,52.04,3,card,no,yes
+C10076,44,month-to-month,none,28.49,1,card,yes,no
+C10077,59,month-to-month,dsl,31.87,2,card,no,no
+C10078,48,one-year,fiber,72.79,0,cash,no,no
+C10079,11,month-to-month,dsl,62.4,2,bank transfer,yes,yes
+C10080,38,one-year,dsl,15.0,3,easypaisa,no,no
+C10081,19,month-to-month,dsl,70.04,1,cash,yes,yes
+C10082,69,one-year,fiber,56.36,0,cash,no,no
+C10083,63,one-year,fiber,58.67,2,cash,no,no
+C10084,14,two-year,none,68.56,3,card,no,no
+C10085,37,month-to-month,dsl,53.51,0,cash,no,no
+C10086,67,month-to-month,dsl,24.27,5,easypaisa,yes,no
+C10087,61,one-year,dsl,91.89,1,bank transfer,yes,no
+C10088,51,one-year,fiber,62.79,1,easypaisa,no,no
+C10089,46,month-to-month,fiber,84.95,0,card,yes,yes
+C10090,3,one-year,fiber,84.0,0,easypaisa,yes,no
+C10091,53,month-to-month,fiber,108.23,1,easypaisa,yes,no
+C10092,34,month-to-month,fiber,70.89,1,card,no,yes
+C10093,7,two-year,dsl,75.16,0,cash,yes,no
+C10094,18,month-to-month,dsl,40.16,4,card,no,yes
+C10095,39,month-to-month,fiber,102.44,2,card,no,yes
+C10096,52,one-year,none,39.74,0,bank transfer,no,no
+C10097,37,one-year,fiber,72.76,1,cash,no,no
+C10098,44,one-year,dsl,92.92,1,bank transfer,no,no
+C10099,62,two-year,fiber,86.34,3,card,yes,no
+C10100,49,month-to-month,dsl,57.2,1,easypaisa,yes,no
+C10101,26,one-year,fiber,124.84,3,easypaisa,no,yes
+C10102,46,two-year,fiber,87.23,5,bank transfer,yes,no
+C10103,43,one-year,none,38.68,0,bank transfer,no,no
+C10104,8,one-year,dsl,69.69,2,cash,no,yes
+C10105,5,month-to-month,fiber,56.37,3,cash,yes,yes
+C10106,47,one-year,fiber,102.57,2,easypaisa,yes,no
+C10107,28,month-to-month,none,79.12,2,cash,no,yes
+C10108,43,one-year,fiber,68.54,1,card,no,no
+C10109,23,month-to-month,fiber,67.44,1,card,yes,yes
+C10110,17,month-to-month,fiber,83.53,2,easypaisa,yes,yes
+C10111,11,one-year,fiber,80.28,0,bank transfer,yes,no
+C10112,28,month-to-month,none,35.45,0,card,yes,no
+C10113,58,month-to-month,dsl,66.36,1,card,yes,no
+C10114,29,two-year,dsl,15.0,1,bank transfer,yes,no
+C10115,27,month-to-month,fiber,71.34,0,bank transfer,yes,no
+C10116,41,two-year,dsl,46.92,1,easypaisa,yes,no
+C10117,70,one-year,fiber,74.53,0,card,yes,no
+C10118,28,month-to-month,fiber,86.14,2,card,yes,yes
+C10119,42,one-year,fiber,55.44,0,bank transfer,yes,no
+C10120,32,month-to-month,dsl,66.77,2,cash,yes,yes
+C10121,43,month-to-month,fiber,76.4,1,bank transfer,no,yes
+C10122,32,two-year,dsl,42.0,4,bank transfer,no,no
+C10123,46,one-year,none,27.66,2,card,yes,no
+C10124,39,one-year,none,31.34,1,cash,yes,no
+C10125,49,one-year,dsl,62.21,2,bank transfer,yes,no
+C10126,68,one-year,dsl,35.72,3,cash,no,no
+C10127,11,one-year,none,56.28,2,cash,yes,no
+C10128,40,month-to-month,fiber,101.24,2,card,yes,yes
+C10129,32,month-to-month,dsl,75.65,0,card,no,no
+C10130,26,month-to-month,fiber,111.21,1,card,no,yes
+C10131,18,month-to-month,dsl,49.07,1,cash,no,no
+C10132,4,month-to-month,fiber,58.3,0,bank transfer,yes,no
+C10133,29,two-year,fiber,100.41,2,bank transfer,yes,no
+C10134,59,month-to-month,none,61.19,4,card,yes,no
+C10135,7,month-to-month,fiber,102.48,0,card,yes,yes
+C10136,29,month-to-month,dsl,55.22,2,card,no,yes
+C10137,69,one-year,fiber,103.91,1,cash,yes,no
+C10138,68,two-year,fiber,96.93,1,easypaisa,yes,no
+C10139,16,two-year,none,69.33,1,bank transfer,yes,no
+C10140,1,month-to-month,dsl,65.07,0,easypaisa,yes,no
+C10141,48,month-to-month,fiber,87.95,2,bank transfer,yes,no
+C10142,2,two-year,none,59.66,2,card,yes,no
+C10143,22,month-to-month,dsl,59.52,3,bank transfer,no,yes
+C10144,36,one-year,dsl,74.8,1,cash,yes,no
+C10145,63,month-to-month,fiber,69.76,1,cash,no,no
+C10146,7,two-year,dsl,89.71,1,cash,yes,no
+C10147,48,month-to-month,none,52.88,1,card,yes,no
+C10148,38,month-to-month,dsl,74.71,3,cash,yes,yes
+C10149,10,month-to-month,dsl,53.2,2,card,yes,yes
+C10150,61,month-to-month,dsl,,3,card,no,no
+C10151,61,two-year,fiber,120.64,6,bank transfer,yes,yes
+C10152,35,two-year,dsl,48.81,2,bank transfer,yes,no
+C10153,68,month-to-month,none,29.46,1,card,no,no
+C10154,44,one-year,none,40.72,0,easypaisa,no,no
+C10155,65,month-to-month,none,48.66,1,cash,yes,no
+C10156,69,month-to-month,dsl,98.1,1,cash,yes,no
+C10157,41,month-to-month,dsl,59.14,2,bank transfer,yes,yes
+C10158,20,month-to-month,dsl,73.69,2,bank transfer,yes,yes
+C10159,11,month-to-month,none,34.97,0,easypaisa,yes,no
+C10160,40,one-year,fiber,87.05,1,bank transfer,yes,no
+C10161,14,one-year,dsl,68.43,1,cash,no,yes
+C10162,54,month-to-month,fiber,116.03,1,bank transfer,yes,no
+C10163,66,one-year,none,41.07,2,bank transfer,no,no
+C10164,18,two-year,none,67.07,1,easypaisa,yes,no
+C10165,40,month-to-month,fiber,86.05,1,bank transfer,yes,yes
+C10166,4,month-to-month,none,,1,cash,yes,yes
+C10167,13,one-year,fiber,79.61,2,easypaisa,no,yes
+C10168,27,month-to-month,dsl,49.73,2,card,no,yes
+C10169,63,one-year,dsl,15.0,2,easypaisa,yes,no
+C10170,69,month-to-month,fiber,91.97,0,bank transfer,yes,no
+C10171,46,one-year,dsl,65.8,2,bank transfer,yes,no
+C10172,42,month-to-month,dsl,46.22,2,card,no,no
+C10173,41,month-to-month,none,28.23,1,card,yes,no
+C10174,5,month-to-month,fiber,109.6,3,easypaisa,no,yes
+C10175,27,one-year,fiber,85.32,1,bank transfer,yes,no
+C10176,70,month-to-month,none,75.33,3,easypaisa,no,no
+C10177,30,two-year,dsl,,1,easypaisa,yes,no
+C10178,16,month-to-month,none,44.58,1,bank transfer,no,yes
+C10179,18,month-to-month,none,71.24,0,card,yes,yes
+C10180,51,month-to-month,dsl,50.18,2,easypaisa,yes,no
+C10181,3,month-to-month,dsl,53.75,5,cash,yes,yes
+C10182,69,month-to-month,dsl,53.29,2,cash,no,no
+C10183,63,one-year,none,54.97,1,card,yes,no
+C10184,41,one-year,dsl,77.28,0,cash,yes,no
+C10185,34,month-to-month,dsl,57.48,2,bank transfer,no,no
+C10186,55,month-to-month,none,51.93,0,card,yes,no
+C10187,39,month-to-month,fiber,74.47,1,card,yes,yes
+C10188,34,one-year,fiber,86.83,3,cash,yes,no
+C10189,23,month-to-month,fiber,62.1,1,bank transfer,no,yes
+C10190,32,two-year,dsl,44.95,0,cash,no,no
+C10191,54,one-year,dsl,53.95,1,bank transfer,yes,no
+C10192,4,one-year,fiber,68.68,1,card,yes,yes
+C10193,2,one-year,dsl,52.63,0,easypaisa,yes,no
+C10194,52,one-year,fiber,67.78,2,easypaisa,yes,no
+C10195,27,month-to-month,fiber,120.08,3,cash,yes,yes
+C10196,58,month-to-month,fiber,106.58,1,cash,yes,no
+C10197,3,month-to-month,fiber,89.0,2,card,yes,yes
+C10198,65,month-to-month,dsl,53.93,1,card,no,no
+C10199,9,month-to-month,dsl,98.82,2,cash,yes,yes
+C10200,30,month-to-month,none,61.46,3,bank transfer,yes,yes
+C10201,69,one-year,dsl,53.26,2,bank transfer,yes,no
+C10202,8,month-to-month,fiber,86.06,1,card,yes,yes
+C10203,47,month-to-month,dsl,61.12,1,bank transfer,no,no
+C10204,52,month-to-month,none,83.21,1,bank transfer,yes,no
+C10205,31,month-to-month,dsl,54.62,2,card,yes,no
+C10206,6,two-year,fiber,,0,card,no,yes
+C10207,38,month-to-month,fiber,62.36,1,cash,yes,yes
+C10208,31,month-to-month,fiber,93.88,1,card,yes,no
+C10209,62,month-to-month,none,34.96,1,bank transfer,no,no
+C10210,49,month-to-month,fiber,116.34,0,bank transfer,yes,yes
+C10211,25,month-to-month,dsl,48.39,3,easypaisa,no,no
+C10212,5,month-to-month,dsl,53.84,1,bank transfer,yes,yes
+C10213,42,month-to-month,fiber,98.48,2,card,yes,yes
+C10214,20,month-to-month,none,80.11,1,easypaisa,yes,yes
+C10215,49,one-year,dsl,32.76,4,easypaisa,yes,no
+C10216,62,month-to-month,fiber,73.08,4,easypaisa,no,no
+C10217,26,one-year,dsl,27.1,1,card,no,no
+C10218,65,month-to-month,fiber,82.75,1,cash,yes,yes
+C10219,37,month-to-month,fiber,77.97,1,bank transfer,no,yes
+C10220,38,two-year,fiber,73.02,3,easypaisa,yes,no
+C10221,55,month-to-month,none,,2,easypaisa,yes,no
+C10222,57,two-year,fiber,72.28,2,card,yes,no
+C10223,65,two-year,dsl,40.07,2,card,no,no
+C10224,71,one-year,fiber,90.58,2,card,no,no
+C10225,11,month-to-month,fiber,110.32,0,easypaisa,no,yes
+C10226,30,one-year,fiber,41.39,1,bank transfer,no,no
+C10227,67,one-year,dsl,52.68,1,cash,yes,no
+C10228,22,one-year,fiber,71.64,1,cash,yes,no
+C10229,1,month-to-month,dsl,64.85,2,card,yes,yes
+C10230,41,two-year,dsl,35.96,2,easypaisa,yes,no
+C10231,54,two-year,dsl,52.07,2,bank transfer,no,no
+C10232,53,month-to-month,fiber,,4,card,yes,yes
+C10233,58,month-to-month,dsl,68.93,1,card,no,no
+C10234,46,month-to-month,fiber,81.99,1,cash,no,no
+C10235,10,two-year,fiber,76.77,2,card,no,yes
+C10236,61,two-year,dsl,62.4,2,bank transfer,no,no
+C10237,30,two-year,fiber,,1,bank transfer,yes,no
+C10238,61,one-year,none,23.92,0,cash,yes,no
+C10239,58,one-year,dsl,66.91,3,bank transfer,no,no
+C10240,69,one-year,fiber,85.77,2,easypaisa,yes,no
+C10241,2,one-year,fiber,76.92,2,easypaisa,no,yes
+C10242,62,two-year,fiber,99.7,0,bank transfer,yes,no
+C10243,45,one-year,none,79.37,1,cash,no,no
+C10244,35,month-to-month,dsl,33.15,1,easypaisa,yes,no
+C10245,57,month-to-month,none,39.38,2,easypaisa,no,no
+C10246,68,month-to-month,fiber,110.95,3,cash,no,no
+C10247,37,one-year,fiber,,4,bank transfer,yes,yes
+C10248,7,one-year,fiber,65.23,2,easypaisa,no,yes
+C10249,52,month-to-month,none,31.39,0,bank transfer,no,no
+C10250,17,two-year,dsl,42.25,0,bank transfer,no,no
+C10251,17,one-year,fiber,70.04,1,easypaisa,yes,no
+C10252,14,month-to-month,dsl,23.32,0,card,yes,no
+C10253,15,month-to-month,fiber,80.62,0,cash,yes,yes
+C10254,65,month-to-month,fiber,54.4,3,cash,yes,no
+C10255,26,month-to-month,dsl,30.79,2,easypaisa,no,yes
+C10256,8,month-to-month,dsl,73.32,1,bank transfer,no,yes
+C10257,13,month-to-month,fiber,66.34,0,easypaisa,no,yes
+C10258,29,two-year,fiber,78.57,1,bank transfer,yes,no
+C10259,25,month-to-month,fiber,92.58,2,card,yes,yes
+C10260,23,two-year,dsl,71.26,0,cash,no,no
+C10261,68,one-year,fiber,73.26,2,cash,no,no
+C10262,62,two-year,dsl,55.88,1,easypaisa,yes,no
+C10263,41,month-to-month,fiber,63.49,2,bank transfer,yes,yes
+C10264,71,month-to-month,fiber,114.95,2,cash,yes,yes
+C10265,25,one-year,fiber,93.0,1,bank transfer,no,yes
+C10266,10,month-to-month,fiber,57.94,1,easypaisa,yes,yes
+C10267,20,month-to-month,dsl,55.08,3,cash,no,yes
+C10268,7,one-year,fiber,94.27,0,card,no,no
+C10269,68,one-year,fiber,89.59,1,card,yes,no
+C10270,16,month-to-month,fiber,,0,easypaisa,no,yes
+C10271,32,month-to-month,dsl,82.45,2,cash,yes,yes
+C10272,15,two-year,dsl,44.21,3,cash,no,no
+C10273,70,month-to-month,fiber,78.22,2,card,yes,yes
+C10274,12,one-year,fiber,54.37,1,cash,no,no
+C10275,37,month-to-month,none,59.99,1,card,yes,no
+C10276,68,two-year,none,58.02,2,easypaisa,no,no
+C10277,38,month-to-month,dsl,109.07,2,easypaisa,yes,yes
+C10278,64,month-to-month,fiber,,1,cash,yes,no
+C10279,64,month-to-month,dsl,15.0,1,cash,no,no
+C10280,55,one-year,fiber,66.56,4,card,yes,no
+C10281,53,two-year,dsl,57.25,1,bank transfer,no,no
+C10282,41,month-to-month,dsl,29.88,2,card,no,no
+C10283,42,month-to-month,fiber,62.66,0,cash,no,yes
+C10284,60,one-year,fiber,72.69,1,card,no,no
+C10285,31,one-year,fiber,86.84,1,bank transfer,no,no
+C10286,68,month-to-month,fiber,76.69,1,easypaisa,no,no
+C10287,63,one-year,fiber,62.22,0,cash,yes,no
+C10288,27,month-to-month,dsl,70.75,0,cash,no,yes
+C10289,30,two-year,fiber,69.21,1,card,no,no
+C10290,51,month-to-month,dsl,45.01,2,bank transfer,no,no
+C10291,66,one-year,fiber,52.41,4,bank transfer,yes,no
+C10292,7,one-year,fiber,64.28,1,bank transfer,no,yes
+C10293,5,one-year,fiber,93.04,4,card,yes,yes
+C10294,18,month-to-month,dsl,22.65,1,easypaisa,yes,no
+C10295,31,one-year,fiber,78.58,1,easypaisa,yes,no
+C10296,12,one-year,dsl,69.35,5,bank transfer,no,yes
+C10297,37,month-to-month,dsl,47.46,1,bank transfer,yes,yes
+C10298,39,month-to-month,dsl,59.8,1,cash,no,no
+C10299,68,two-year,fiber,57.66,2,easypaisa,yes,no
+C10300,53,one-year,none,81.21,2,card,yes,no
+C10301,18,month-to-month,dsl,77.02,2,card,no,yes
+C10302,56,one-year,dsl,59.71,2,easypaisa,yes,no
+C10303,58,month-to-month,fiber,44.9,2,easypaisa,yes,no
+C10304,49,month-to-month,dsl,34.08,0,cash,no,no
+C10305,49,two-year,none,74.53,1,cash,yes,no
+C10306,23,month-to-month,dsl,89.26,1,easypaisa,no,no
+C10307,51,month-to-month,dsl,60.93,3,card,yes,yes
+C10308,10,month-to-month,fiber,104.95,2,easypaisa,no,yes
+C10309,45,month-to-month,dsl,42.84,1,bank transfer,yes,no
+C10310,66,month-to-month,dsl,51.21,0,card,no,no
+C10311,69,month-to-month,dsl,55.02,3,cash,yes,no
+C10312,22,month-to-month,fiber,88.46,4,cash,no,yes
+C10313,24,month-to-month,none,24.42,0,cash,yes,no
+C10314,44,month-to-month,dsl,73.81,2,card,yes,yes
+C10315,29,month-to-month,fiber,106.45,1,cash,no,yes
+C10316,52,one-year,dsl,32.03,1,cash,yes,no
+C10317,15,two-year,fiber,52.89,1,card,no,no
+C10318,12,month-to-month,fiber,87.01,4,easypaisa,no,yes
+C10319,4,one-year,dsl,41.91,3,easypaisa,yes,yes
+C10320,34,month-to-month,fiber,40.0,1,bank transfer,yes,no
+C10321,16,month-to-month,fiber,96.17,0,card,no,yes
+C10322,22,month-to-month,dsl,58.11,1,card,no,no
+C10323,65,two-year,dsl,45.47,1,bank transfer,yes,no
+C10324,58,month-to-month,fiber,122.27,3,bank transfer,yes,yes
+C10325,60,two-year,none,57.78,1,easypaisa,no,no
+C10326,43,month-to-month,fiber,64.93,0,easypaisa,yes,yes
+C10327,8,one-year,none,57.02,2,bank transfer,no,no
+C10328,54,two-year,none,34.2,2,bank transfer,yes,no
+C10329,43,two-year,fiber,64.77,1,bank transfer,no,no
+C10330,65,month-to-month,fiber,87.73,2,cash,no,no
+C10331,35,month-to-month,dsl,43.92,2,bank transfer,yes,no
+C10332,13,month-to-month,dsl,45.98,0,easypaisa,no,no
+C10333,43,one-year,fiber,113.38,1,card,yes,no
+C10334,33,month-to-month,none,72.19,2,bank transfer,yes,yes
+C10335,47,month-to-month,dsl,71.06,3,card,yes,no
+C10336,27,two-year,dsl,65.58,1,card,no,no
+C10337,22,month-to-month,dsl,64.68,2,cash,yes,yes
+C10338,9,month-to-month,fiber,109.13,0,card,no,yes
+C10339,69,two-year,fiber,79.61,1,card,yes,no
+C10340,54,month-to-month,fiber,117.11,2,cash,yes,yes
+C10341,34,month-to-month,dsl,35.97,0,cash,yes,no
+C10342,17,month-to-month,fiber,74.9,1,card,yes,yes
+C10343,45,month-to-month,fiber,52.43,1,cash,yes,no
+C10344,30,month-to-month,fiber,73.12,2,cash,yes,yes
+C10345,46,one-year,dsl,65.37,1,cash,yes,no
+C10346,7,two-year,fiber,109.02,4,bank transfer,yes,yes
+C10347,14,one-year,fiber,66.73,0,cash,no,no
+C10348,53,one-year,dsl,55.11,2,card,yes,no
+C10349,5,month-to-month,dsl,47.82,0,card,no,yes
+C10350,49,one-year,fiber,65.23,1,card,yes,no
+C10351,30,one-year,dsl,31.21,4,card,yes,no
+C10352,1,one-year,fiber,81.21,2,cash,yes,no
+C10353,55,two-year,fiber,45.36,1,bank transfer,yes,no
+C10354,50,one-year,none,57.21,1,bank transfer,no,no
+C10355,58,month-to-month,fiber,80.42,2,card,yes,no
+C10356,64,one-year,fiber,66.84,4,easypaisa,yes,no
+C10357,52,month-to-month,dsl,34.78,0,card,yes,no
+C10358,60,month-to-month,fiber,52.31,0,card,no,no
+C10359,9,one-year,fiber,117.43,4,cash,no,yes
+C10360,66,two-year,fiber,53.16,2,cash,no,no
+C10361,65,month-to-month,fiber,111.15,4,cash,no,yes
+C10362,50,month-to-month,fiber,92.0,4,bank transfer,yes,yes
+C10363,57,one-year,dsl,47.72,3,cash,no,no
+C10364,53,month-to-month,fiber,56.86,0,card,yes,no
+C10365,63,month-to-month,fiber,100.85,3,bank transfer,no,yes
+C10366,64,month-to-month,dsl,89.59,2,bank transfer,yes,no
+C10367,38,month-to-month,dsl,36.32,0,cash,no,no
+C10368,58,one-year,dsl,49.03,3,cash,yes,no
+C10369,66,one-year,fiber,101.03,2,cash,yes,no
+C10370,22,month-to-month,dsl,61.72,1,bank transfer,no,yes
+C10371,4,two-year,fiber,120.0,3,bank transfer,no,no
+C10372,13,two-year,none,43.6,3,cash,yes,no
+C10373,3,month-to-month,fiber,90.85,0,card,yes,yes
+C10374,31,month-to-month,fiber,54.98,1,bank transfer,yes,no
+C10375,2,month-to-month,none,96.92,0,card,no,yes
+C10376,19,two-year,dsl,40.39,0,easypaisa,no,no
+C10377,18,two-year,fiber,40.0,3,bank transfer,yes,no
+C10378,51,month-to-month,dsl,52.48,0,easypaisa,yes,no
+C10379,18,month-to-month,dsl,52.21,5,cash,yes,yes
+C10380,68,month-to-month,none,93.31,2,card,no,no
+C10381,14,month-to-month,dsl,48.22,3,card,yes,yes
+C10382,69,two-year,fiber,79.75,2,card,yes,no
+C10383,41,month-to-month,none,66.87,2,bank transfer,no,no
+C10384,18,month-to-month,fiber,111.73,1,cash,no,yes
+C10385,3,month-to-month,fiber,78.74,0,bank transfer,no,yes
+C10386,22,month-to-month,fiber,100.79,3,cash,yes,yes
+C10387,42,one-year,dsl,65.36,0,cash,yes,no
+C10388,8,month-to-month,fiber,74.08,2,cash,yes,yes
+C10389,12,month-to-month,dsl,56.55,2,card,no,yes
+C10390,9,month-to-month,dsl,55.57,2,easypaisa,no,yes
+C10391,49,two-year,dsl,36.68,1,easypaisa,yes,no
+C10392,7,one-year,none,79.27,2,easypaisa,yes,yes
+C10393,2,month-to-month,dsl,27.29,0,bank transfer,no,no
+C10394,33,two-year,dsl,78.42,3,bank transfer,yes,no
+C10395,23,month-to-month,none,74.09,3,easypaisa,no,yes
+C10396,41,one-year,dsl,53.14,1,bank transfer,no,no
+C10397,67,month-to-month,none,39.69,0,cash,no,no
+C10398,61,two-year,none,50.47,2,card,no,no
+C10399,39,month-to-month,fiber,89.46,1,cash,yes,yes
+C10400,46,month-to-month,fiber,94.86,2,easypaisa,yes,yes
+C10401,58,one-year,dsl,60.74,2,cash,yes,no
+C10402,32,month-to-month,dsl,74.84,1,card,yes,no
+C10403,47,month-to-month,dsl,43.85,0,bank transfer,no,no
+C10404,16,month-to-month,dsl,59.69,1,cash,no,yes
+C10405,44,month-to-month,fiber,48.63,1,bank transfer,no,yes
+C10406,17,month-to-month,none,70.27,1,bank transfer,no,yes
+C10407,14,month-to-month,fiber,83.06,1,card,yes,yes
+C10408,55,month-to-month,none,46.69,4,cash,yes,yes
+C10409,41,month-to-month,fiber,103.23,2,bank transfer,yes,yes
+C10410,27,month-to-month,dsl,68.83,1,cash,yes,yes
+C10411,3,one-year,fiber,40.0,1,card,no,no
+C10412,17,month-to-month,dsl,55.8,0,cash,no,yes
+C10413,57,month-to-month,dsl,25.9,0,cash,yes,no
+C10414,34,month-to-month,none,76.33,1,card,yes,no
+C10415,69,one-year,dsl,104.78,1,card,no,no
+C10416,64,month-to-month,dsl,44.63,1,easypaisa,no,no
+C10417,61,month-to-month,dsl,56.49,1,card,no,no
+C10418,2,one-year,fiber,74.98,3,cash,yes,yes
+C10419,4,month-to-month,fiber,87.02,1,cash,yes,yes
+C10420,42,two-year,dsl,67.89,0,easypaisa,yes,no
+C10421,25,two-year,fiber,105.74,1,cash,no,no
+C10422,60,month-to-month,dsl,35.25,2,card,yes,no
+C10423,23,one-year,fiber,111.43,0,cash,yes,no
+C10424,11,month-to-month,fiber,61.37,1,cash,yes,yes
+C10425,9,month-to-month,fiber,85.54,1,bank transfer,yes,yes
+C10426,22,month-to-month,fiber,103.17,1,cash,yes,yes
+C10427,45,one-year,fiber,94.26,1,card,no,no
+C10428,9,two-year,none,36.23,1,bank transfer,no,no
+C10429,57,month-to-month,fiber,65.96,1,cash,yes,no
+C10430,22,one-year,dsl,45.75,1,card,yes,no
+C10431,23,month-to-month,fiber,78.98,1,bank transfer,yes,yes
+C10432,48,month-to-month,dsl,77.94,1,easypaisa,no,no
+C10433,62,two-year,dsl,29.16,1,cash,yes,no
+C10434,31,one-year,dsl,64.33,1,cash,yes,no
+C10435,57,month-to-month,dsl,67.2,2,card,no,no
+C10436,22,two-year,none,66.17,2,bank transfer,no,no
+C10437,10,month-to-month,fiber,89.33,0,card,yes,yes
+C10438,59,month-to-month,none,85.37,2,bank transfer,no,no
+C10439,55,month-to-month,fiber,89.76,0,easypaisa,yes,no
+C10440,54,two-year,dsl,72.14,4,bank transfer,yes,no
+C10441,63,month-to-month,dsl,66.27,5,easypaisa,no,yes
+C10442,36,two-year,fiber,115.86,0,bank transfer,no,no
+C10443,15,one-year,dsl,17.0,1,easypaisa,yes,no
+C10444,42,month-to-month,fiber,105.64,3,easypaisa,no,yes
+C10445,41,one-year,fiber,74.78,0,easypaisa,no,no
+C10446,28,month-to-month,dsl,49.39,1,card,yes,no
+C10447,46,one-year,dsl,35.61,0,easypaisa,no,no
+C10448,19,one-year,fiber,42.63,0,bank transfer,no,no
+C10449,44,one-year,fiber,72.36,2,card,yes,no
+C10450,57,two-year,fiber,66.25,1,easypaisa,yes,no
+C10451,7,month-to-month,fiber,89.88,2,card,no,yes
+C10452,33,two-year,dsl,25.55,2,card,no,no
+C10453,47,month-to-month,dsl,83.63,3,bank transfer,yes,yes
+C10454,4,one-year,dsl,60.44,0,card,no,no
+C10455,45,two-year,dsl,50.04,3,easypaisa,yes,no
+C10456,65,two-year,fiber,65.81,2,easypaisa,yes,no
+C10457,59,month-to-month,none,39.26,4,card,yes,no
+C10458,49,month-to-month,fiber,57.4,2,cash,no,no
+C10459,58,two-year,dsl,44.11,1,card,yes,no
+C10460,26,two-year,dsl,55.12,3,cash,no,no
+C10461,24,month-to-month,fiber,76.45,5,bank transfer,no,yes
+C10462,6,two-year,none,26.71,1,cash,yes,no
+C10463,52,month-to-month,fiber,74.68,3,bank transfer,yes,no
+C10464,23,month-to-month,dsl,37.14,0,cash,yes,no
+C10465,62,one-year,dsl,58.2,2,bank transfer,yes,no
+C10466,34,month-to-month,fiber,117.29,1,card,no,yes
+C10467,64,month-to-month,none,67.5,2,cash,yes,no
+C10468,10,month-to-month,dsl,48.74,2,easypaisa,yes,yes
+C10469,12,month-to-month,dsl,22.5,0,cash,no,no
+C10470,25,month-to-month,dsl,26.71,1,bank transfer,yes,no
+C10471,2,month-to-month,dsl,21.27,1,card,yes,yes
+C10472,35,one-year,none,69.52,1,bank transfer,yes,no
+C10473,47,one-year,fiber,64.7,2,bank transfer,yes,no
+C10474,47,one-year,none,56.25,1,easypaisa,yes,no
+C10475,16,two-year,dsl,42.56,1,card,no,no
+C10476,12,month-to-month,dsl,56.82,1,cash,yes,yes
+C10477,41,month-to-month,fiber,108.03,2,bank transfer,yes,yes
+C10478,45,month-to-month,fiber,66.3,1,bank transfer,no,yes
+C10479,68,month-to-month,dsl,48.18,1,card,yes,no
+C10480,64,one-year,fiber,63.87,2,bank transfer,no,no
+C10481,27,month-to-month,fiber,97.49,3,card,no,yes
+C10482,12,month-to-month,fiber,59.49,1,easypaisa,no,yes
+C10483,18,one-year,fiber,57.34,2,card,yes,no
+C10484,63,month-to-month,dsl,27.25,4,bank transfer,yes,no
+C10485,33,month-to-month,none,26.83,2,card,no,no
+C10486,71,one-year,fiber,89.42,2,card,no,no
+C10487,47,one-year,fiber,131.38,0,easypaisa,no,no
+C10488,43,month-to-month,fiber,60.09,1,cash,yes,no
+C10489,8,one-year,dsl,74.03,1,card,no,no
+C10490,42,month-to-month,dsl,60.02,3,bank transfer,no,no
+C10491,28,month-to-month,dsl,32.96,0,cash,yes,no
+C10492,60,one-year,dsl,49.47,3,cash,no,no
+C10493,10,month-to-month,dsl,50.34,2,cash,no,no
+C10494,14,month-to-month,fiber,66.19,0,card,yes,yes
+C10495,48,one-year,dsl,93.61,1,bank transfer,yes,no
+C10496,49,one-year,dsl,16.88,1,card,yes,no
+C10497,59,month-to-month,fiber,87.62,1,easypaisa,yes,no
+C10498,38,one-year,dsl,61.63,1,bank transfer,no,no
+C10499,27,month-to-month,dsl,43.41,2,cash,yes,no
+C10500,22,two-year,fiber,82.99,3,card,no,no
+C10501,27,month-to-month,fiber,97.55,0,card,no,yes
+C10502,48,month-to-month,fiber,83.05,0,bank transfer,yes,no
+C10503,39,month-to-month,dsl,63.35,3,easypaisa,yes,yes
+C10504,22,two-year,fiber,93.86,0,bank transfer,no,no
+C10505,16,month-to-month,dsl,15.0,1,bank transfer,no,no
+C10506,51,one-year,none,84.57,2,bank transfer,yes,no
+C10507,18,two-year,fiber,125.57,2,bank transfer,no,yes
+C10508,15,two-year,dsl,74.62,1,card,yes,no
+C10509,24,month-to-month,dsl,75.27,2,bank transfer,yes,yes
+C10510,61,month-to-month,none,26.84,0,bank transfer,no,no
+C10511,33,one-year,dsl,52.63,0,card,yes,no
+C10512,43,one-year,fiber,63.76,2,bank transfer,no,no
+C10513,6,month-to-month,none,43.26,2,easypaisa,yes,yes
+C10514,25,month-to-month,fiber,99.34,1,card,no,yes
+C10515,54,month-to-month,none,38.92,1,card,no,no
+C10516,55,month-to-month,fiber,77.4,1,cash,yes,yes
+C10517,42,one-year,fiber,41.83,2,bank transfer,no,no
+C10518,63,month-to-month,fiber,76.83,1,card,no,no
+C10519,22,month-to-month,dsl,56.8,1,cash,yes,no
+C10520,12,month-to-month,fiber,65.9,1,card,no,yes
+C10521,6,month-to-month,dsl,40.6,5,bank transfer,yes,yes
+C10522,15,month-to-month,fiber,117.73,2,cash,yes,yes
+C10523,55,two-year,fiber,55.81,2,bank transfer,yes,no
+C10524,65,month-to-month,dsl,33.99,4,card,yes,no
+C10525,10,month-to-month,dsl,38.82,0,cash,no,no
+C10526,36,one-year,dsl,78.98,0,cash,yes,no
+C10527,10,month-to-month,fiber,122.03,2,easypaisa,yes,yes
+C10528,60,month-to-month,none,61.64,0,card,yes,no
+C10529,10,two-year,none,40.65,2,easypaisa,no,yes
+C10530,46,two-year,none,46.45,3,card,no,no
+C10531,6,one-year,fiber,101.3,1,card,no,yes
+C10532,53,month-to-month,fiber,61.78,1,easypaisa,no,no
+C10533,65,month-to-month,dsl,84.06,1,easypaisa,yes,no
+C10534,52,month-to-month,dsl,83.33,1,bank transfer,no,no
+C10535,20,month-to-month,dsl,56.4,2,bank transfer,yes,no
+C10536,60,month-to-month,fiber,92.92,1,easypaisa,no,no
+C10537,22,month-to-month,dsl,69.99,0,easypaisa,yes,no
+C10538,54,one-year,dsl,86.08,1,card,yes,no
+C10539,60,month-to-month,dsl,33.97,0,bank transfer,no,no
+C10540,35,month-to-month,dsl,78.62,2,easypaisa,yes,yes
+C10541,45,two-year,fiber,72.5,2,card,yes,no
+C10542,61,month-to-month,dsl,39.64,1,easypaisa,yes,no
+C10543,14,month-to-month,dsl,57.05,2,cash,no,no
+C10544,2,month-to-month,none,50.71,0,easypaisa,yes,yes
+C10545,31,one-year,none,35.25,3,easypaisa,no,no
+C10546,13,one-year,fiber,48.05,2,cash,yes,no
+C10547,63,month-to-month,fiber,61.16,1,cash,no,no
+C10548,62,one-year,dsl,84.05,2,card,yes,no
+C10549,27,month-to-month,none,94.25,1,bank transfer,yes,yes
+C10550,22,month-to-month,fiber,93.0,1,bank transfer,no,yes
+C10551,51,one-year,fiber,103.72,1,bank transfer,no,no
+C10552,33,two-year,dsl,44.66,0,cash,no,no
+C10553,7,two-year,dsl,53.46,2,card,yes,no
+C10554,48,one-year,dsl,60.66,1,card,no,no
+C10555,52,month-to-month,dsl,33.37,1,bank transfer,yes,no
+C10556,5,month-to-month,dsl,35.2,2,cash,yes,yes
+C10557,56,two-year,fiber,81.94,1,bank transfer,yes,no
+C10558,38,month-to-month,fiber,73.59,0,easypaisa,yes,no
+C10559,59,month-to-month,dsl,33.73,1,card,no,no
+C10560,61,one-year,dsl,62.73,0,bank transfer,yes,no
+C10561,48,two-year,dsl,49.73,2,bank transfer,yes,no
+C10562,24,one-year,dsl,75.43,2,bank transfer,no,no
+C10563,27,month-to-month,fiber,79.9,2,bank transfer,no,yes
+C10564,52,month-to-month,fiber,73.99,1,card,no,no
+C10565,5,month-to-month,dsl,57.55,1,cash,no,yes
+C10566,17,two-year,fiber,76.56,1,easypaisa,no,no
+C10567,37,two-year,fiber,66.64,1,bank transfer,yes,no
+C10568,67,month-to-month,fiber,71.96,2,easypaisa,no,yes
+C10569,54,two-year,fiber,,1,cash,yes,no
+C10570,58,month-to-month,fiber,92.93,1,card,yes,no
+C10571,14,month-to-month,fiber,105.72,0,card,no,no
+C10572,20,month-to-month,fiber,46.14,1,card,yes,no
+C10573,19,month-to-month,fiber,72.14,0,card,yes,yes
+C10574,54,month-to-month,fiber,71.71,0,bank transfer,yes,no
+C10575,39,month-to-month,dsl,58.44,2,cash,yes,no
+C10576,15,one-year,fiber,70.96,3,card,yes,yes
+C10577,54,month-to-month,dsl,44.74,1,card,yes,no
+C10578,46,two-year,dsl,70.66,4,bank transfer,yes,no
+C10579,64,two-year,dsl,58.56,0,card,no,no
+C10580,40,month-to-month,dsl,31.67,2,easypaisa,yes,yes
+C10581,9,month-to-month,dsl,81.69,0,easypaisa,yes,yes
+C10582,64,two-year,fiber,99.94,0,easypaisa,no,no
+C10583,14,month-to-month,fiber,68.52,1,bank transfer,yes,yes
+C10584,4,month-to-month,fiber,96.63,2,cash,yes,yes
+C10585,57,month-to-month,dsl,40.3,1,card,no,no
+C10586,32,two-year,fiber,102.51,1,cash,yes,no
+C10587,46,one-year,fiber,75.64,1,easypaisa,yes,no
+C10588,10,month-to-month,dsl,38.94,0,cash,yes,yes
+C10589,52,month-to-month,dsl,47.54,1,easypaisa,yes,no
+C10590,29,month-to-month,dsl,39.68,1,easypaisa,yes,no
+C10591,71,month-to-month,fiber,83.84,3,card,yes,yes
+C10592,46,two-year,dsl,58.5,2,card,yes,no
+C10593,67,two-year,fiber,80.72,0,easypaisa,yes,no
+C10594,57,month-to-month,dsl,43.87,1,bank transfer,no,no
+C10595,60,month-to-month,fiber,40.0,0,bank transfer,yes,no
+C10596,7,month-to-month,fiber,81.86,3,bank transfer,yes,yes
+C10597,56,two-year,fiber,42.08,1,cash,yes,no
+C10598,43,one-year,dsl,59.88,0,cash,yes,no
+C10599,29,one-year,fiber,102.62,2,card,yes,yes
+C10600,23,one-year,fiber,85.48,1,easypaisa,yes,no
+C10601,46,month-to-month,fiber,72.21,0,card,no,no
+C10602,15,two-year,dsl,51.4,2,bank transfer,no,no
+C10603,14,month-to-month,none,52.34,2,easypaisa,yes,yes
+C10604,63,one-year,fiber,69.02,3,bank transfer,no,no
+C10605,54,month-to-month,dsl,43.32,1,card,no,no
+C10606,42,month-to-month,fiber,61.52,2,bank transfer,no,yes
+C10607,54,two-year,fiber,103.76,1,cash,no,no
+C10608,23,month-to-month,fiber,79.69,4,cash,yes,yes
+C10609,52,month-to-month,dsl,74.13,1,cash,no,yes
+C10610,15,month-to-month,dsl,50.0,2,easypaisa,yes,yes
+C10611,32,one-year,dsl,56.44,1,bank transfer,no,no
+C10612,11,month-to-month,fiber,76.59,0,easypaisa,no,yes
+C10613,27,month-to-month,fiber,89.26,1,cash,yes,yes
+C10614,25,month-to-month,dsl,71.53,3,bank transfer,no,yes
+C10615,30,month-to-month,fiber,84.79,2,card,yes,yes
+C10616,34,month-to-month,dsl,41.52,1,bank transfer,yes,no
+C10617,3,month-to-month,dsl,39.4,1,cash,yes,yes
+C10618,25,month-to-month,none,88.18,1,cash,no,yes
+C10619,60,one-year,dsl,49.4,2,card,yes,no
+C10620,31,month-to-month,fiber,74.18,2,bank transfer,no,yes
+C10621,39,two-year,dsl,84.3,3,card,yes,no
+C10622,8,two-year,dsl,76.76,0,cash,yes,no
+C10623,28,month-to-month,none,65.68,3,card,yes,yes
+C10624,69,month-to-month,none,47.01,1,card,no,no
+C10625,39,two-year,dsl,102.06,1,bank transfer,yes,no
+C10626,2,month-to-month,fiber,87.86,0,card,no,yes
+C10627,52,two-year,dsl,65.94,1,card,yes,no
+C10628,55,month-to-month,dsl,51.58,3,card,yes,no
+C10629,28,one-year,fiber,51.71,3,cash,yes,yes
+C10630,3,month-to-month,fiber,53.3,0,card,yes,yes
+C10631,59,one-year,fiber,88.14,0,easypaisa,no,no
+C10632,18,two-year,fiber,87.84,1,bank transfer,no,yes
+C10633,66,month-to-month,dsl,50.2,2,easypaisa,no,no
+C10634,26,two-year,dsl,31.57,3,cash,yes,no
+C10635,28,month-to-month,fiber,51.17,3,easypaisa,no,yes
+C10636,57,month-to-month,fiber,73.44,2,bank transfer,yes,yes
+C10637,10,month-to-month,dsl,25.88,0,bank transfer,yes,no
+C10638,3,month-to-month,fiber,97.98,0,card,no,yes
+C10639,54,month-to-month,fiber,103.05,0,cash,yes,no
+C10640,66,one-year,dsl,111.58,1,easypaisa,yes,no
+C10641,71,month-to-month,dsl,72.57,1,easypaisa,no,no
+C10642,10,one-year,dsl,43.14,2,bank transfer,yes,no
+C10643,11,two-year,none,37.57,0,bank transfer,no,no
+C10644,25,two-year,dsl,15.0,0,easypaisa,yes,no
+C10645,51,two-year,dsl,43.1,1,bank transfer,yes,no
+C10646,65,two-year,fiber,76.46,2,cash,yes,no
+C10647,59,month-to-month,fiber,99.36,1,card,yes,yes
+C10648,27,two-year,dsl,67.23,5,card,yes,no
+C10649,66,month-to-month,fiber,91.77,1,bank transfer,yes,no
+C10650,19,two-year,dsl,59.27,2,easypaisa,yes,no
+C10651,9,two-year,fiber,93.22,0,bank transfer,yes,no
+C10652,31,one-year,dsl,83.95,1,bank transfer,yes,no
+C10653,7,month-to-month,none,33.7,1,card,no,yes
+C10654,49,month-to-month,dsl,45.85,1,card,no,no
+C10655,71,month-to-month,fiber,52.23,1,cash,no,no
+C10656,8,month-to-month,fiber,112.37,1,bank transfer,yes,yes
+C10657,9,month-to-month,dsl,80.94,2,bank transfer,no,yes
+C10658,13,month-to-month,dsl,70.05,1,card,no,yes
+C10659,13,two-year,fiber,56.03,0,easypaisa,yes,yes
+C10660,38,two-year,fiber,83.46,1,easypaisa,yes,no
+C10661,41,month-to-month,fiber,75.31,1,card,yes,yes
+C10662,68,month-to-month,fiber,81.62,2,easypaisa,yes,yes
+C10663,32,month-to-month,fiber,76.24,1,easypaisa,yes,yes
+C10664,66,month-to-month,fiber,90.4,1,easypaisa,no,no
+C10665,54,month-to-month,fiber,72.1,1,easypaisa,yes,no
+C10666,61,one-year,fiber,97.09,0,bank transfer,no,no
+C10667,14,month-to-month,fiber,84.83,2,card,no,yes
+C10668,33,month-to-month,dsl,49.14,1,card,no,yes
+C10669,65,month-to-month,dsl,52.76,1,cash,yes,no
+C10670,54,one-year,dsl,46.19,1,card,yes,no
+C10671,16,month-to-month,dsl,71.28,2,card,no,yes
+C10672,61,month-to-month,fiber,74.57,2,card,yes,no
+C10673,55,month-to-month,dsl,60.9,1,bank transfer,yes,no
+C10674,11,two-year,dsl,47.15,2,easypaisa,no,no
+C10675,5,month-to-month,fiber,50.3,2,easypaisa,no,yes
+C10676,19,one-year,dsl,73.12,3,easypaisa,no,no
+C10677,34,month-to-month,dsl,33.84,3,bank transfer,no,no
+C10678,11,two-year,dsl,68.58,0,easypaisa,no,no
+C10679,3,month-to-month,fiber,88.4,0,cash,yes,yes
+C10680,8,month-to-month,fiber,46.88,1,card,yes,yes
+C10681,23,two-year,none,36.11,3,card,no,no
+C10682,28,one-year,none,44.72,1,bank transfer,yes,no
+C10683,23,month-to-month,fiber,63.59,1,bank transfer,no,yes
+C10684,32,month-to-month,fiber,56.36,1,cash,yes,no
+C10685,52,two-year,fiber,94.8,0,easypaisa,yes,no
+C10686,18,month-to-month,dsl,50.21,2,cash,no,no
+C10687,33,month-to-month,none,62.71,0,cash,yes,no
+C10688,52,two-year,dsl,46.39,1,card,yes,no
+C10689,5,month-to-month,dsl,61.11,1,cash,yes,yes
+C10690,67,month-to-month,fiber,64.98,1,cash,no,no
+C10691,71,month-to-month,fiber,,5,bank transfer,yes,yes
+C10692,21,month-to-month,dsl,66.64,1,bank transfer,no,no
+C10693,64,month-to-month,none,55.9,0,easypaisa,no,no
+C10694,18,one-year,fiber,70.86,0,bank transfer,yes,no
+C10695,66,month-to-month,fiber,58.27,0,bank transfer,yes,no
+C10696,47,month-to-month,dsl,58.35,1,cash,yes,yes
+C10697,18,two-year,none,61.9,1,easypaisa,yes,no
+C10698,5,two-year,dsl,49.83,0,easypaisa,no,no
+C10699,28,one-year,dsl,39.61,1,card,yes,no

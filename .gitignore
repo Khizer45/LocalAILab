@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ruff_cache/
+# Runtime data (database, uploads, logs, MLflow store) – never commit
+backend/data/
+backend/data-demo/
+mlruns/
+# Test caches
+.hypothesis/
+# Node
+frontend/node_modules/
+frontend/dist/
+# Secrets
+.env
+backend/.env
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+# generated per scikit-learn version by scripts/make_arena_samples.py --joblib
+samples/arena/*.joblib
+*.tsbuildinfo
+# Playwright
+frontend/test-results/
+frontend/playwright-report/
