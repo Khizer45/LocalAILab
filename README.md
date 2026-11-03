@@ -143,4 +143,4 @@ separately by their publishers. See [Legal & licensing](docs/LEGAL_AND_LICENSING
 
 ## Author
 
-Khizer Hayat – BS Software Engineering, Mirpur University of Science & Technology (MUST). Built as a portfolio project for AI/ML engineering and MLOps.
+Khizer Hayat

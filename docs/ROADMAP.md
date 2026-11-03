@@ -1,6 +1,6 @@
 # Product Roadmap
 
-What it takes to turn Local AI Lab from a portfolio project into a product that people install and use. Grouped by the role that would own the work; ✅ = done (v1.1 or v1.2).
+What it takes to turn Local AI Lab into a product that people install and use. Grouped by the role that would own the work; ✅ = done (v1.1 or v1.2).
 
 **Positioning:** *An offline-first workbench to compare models on your own data and hardware with an honest protocol – choose on validation, report once on test – and to run local models and agents with permissions you control.*
 
