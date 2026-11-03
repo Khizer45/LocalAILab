@@ -54,6 +54,8 @@ No models yet, or just want to look around? `scripts\start_demo.bat` starts the 
 
 Linux/macOS: `make setup`, `make models`, `make backend`, then open http://127.0.0.1:8000.
 
+**Online demo:** an online version with simulated models can be hosted on Hugging Face Spaces – see [deploy/huggingface/DEPLOY.md](deploy/huggingface/DEPLOY.md). Real models always run on your own computer.
+
 ### Docker
 
 ```bash
