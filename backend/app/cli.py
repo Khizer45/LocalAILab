@@ -50,10 +50,13 @@ def cmd_db(args) -> int:
     s = _settings()
     s.ensure_dirs()
     engine = make_engine(s.sqlalchemy_url)
-    if args.action == "current":
-        print(f"database revision: {current_revision(engine)} (latest: {head_revision()})")
-        return EXIT_OK
-    res = upgrade_database(engine, s.backups_dir)
+    try:  # dispose: an open SQLite handle would block a later restore on Windows
+        if args.action == "current":
+            print(f"database revision: {current_revision(engine)} (latest: {head_revision()})")
+            return EXIT_OK
+        res = upgrade_database(engine, s.backups_dir)
+    finally:
+        engine.dispose()
     print(f"upgraded {res['from'] or 'empty/legacy'} -> {res['to']}" + (f"; backup: {res['backup']}" if res["backup"] else ""))
     return EXIT_OK
 
@@ -74,7 +77,13 @@ def cmd_backup(args) -> int:
 
     s = _settings()
     if args.action == "create":
-        rev = current_revision(make_engine(s.sqlalchemy_url)) if (s.data_dir / B.DB_NAME).exists() else None
+        rev = None
+        if (s.data_dir / B.DB_NAME).exists():
+            engine = make_engine(s.sqlalchemy_url)
+            try:
+                rev = current_revision(engine)
+            finally:
+                engine.dispose()
         path = B.create_backup(s.data_dir, Path(args.output) if args.output else s.backups_dir, schema_revision=rev,
                                include_mlflow=not args.no_mlflow, include_backbones=args.backbones, label=args.label)
         info = B.verify_backup(path)
